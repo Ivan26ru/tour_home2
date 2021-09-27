@@ -96,23 +96,23 @@
 
 	</scene>
 
-	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+<!--	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
 
-		<control bouncinglimits="calc:image.cube ? true : false" />
+<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
 
-		<preview url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/preview.jpg" />
+<!--		<preview url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/preview.jpg" />-->
 
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
+<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
+<!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />-->
+<!--		</image>-->
 
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
+<!--		<image if="webvr.isenabled OR device.mobilevr">-->
+<!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/vr/pano_%s.jpg" />-->
+<!--		</image>-->
 
-	</scene>
+<!--	</scene>-->
 
 	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images_fhdr" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -164,6 +164,24 @@
 
 		<image if="webvr.isenabled OR device.mobilevr">
 			<cube url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene_______" title="Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/______.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/______.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/______.tiles/vr/pano_%s.jpg" />
 		</image>
 
 	</scene>
@@ -257,6 +275,43 @@
 		</image>
 
 	</scene>
+
+<!--	<scene name="scene__Group_25_-PG5A1901_PG5A1906-6_images" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
+
+<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
+
+<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
+
+<!--		<preview url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/preview.jpg" />-->
+
+<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
+<!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,4864" />-->
+<!--		</image>-->
+
+<!--		<image if="webvr.isenabled OR device.mobilevr">-->
+<!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/vr/pano_%s.jpg" />-->
+<!--		</image>-->
+
+<!--	</scene>-->
+
+	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
 
 	<scene name="scene__Group_30_-PG5A1940_PG5A1945-6_images" title="СПА коридор с душем" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_30_-PG5A1940_PG5A1945-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -384,6 +439,23 @@
 
 	</scene>
 
+	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
 
 	<!--	<scene name="scene_1_fhdr" title="1_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">-->
 		<!--		-->
@@ -417,6 +489,42 @@
 
 		<image if="webvr.isenabled OR device.mobilevr">
 			<cube url="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__Group_34_-PG5A1965_PG5A1970-6_images_fhdr" title="Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
 	</scene>
@@ -509,6 +617,24 @@
 
 		<image if="webvr.isenabled OR device.mobilevr">
 			<cube url="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__Group_43_-PG5A2015_PG5A2020-6_images" title="Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
 	</scene>
@@ -674,6 +800,25 @@
 
 		</scene>
 
+	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+
 	<scene name="scene__Group_4_-PG5A2100_PG5A2105-6_images" title="Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
@@ -691,6 +836,26 @@
 			</image>
 
 		</scene>
+
+
+	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
 
 	<scene name="scene__Group_6_-PG5A2115_PG5A2120-6_images" title="Ванная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -855,185 +1020,22 @@
 		</scene>
 		<!--	@todo this select scene -->
 
+<!--	<scene name="scene___________" title="копия" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/__________.tiles/thumb.jpg" lat="" lng="" heading="">-->
+<!--		-->
+<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
 
-	<scene name="scene__Group_25_-PG5A1901_PG5A1906-6_images" title="%5BGroup 25%5D-PG5A1901_PG5A1906-6 images" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
 
-		<control bouncinglimits="calc:image.cube ? true : false" />
+<!--		<preview url="panos/__________.tiles/preview.jpg" />-->
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
+<!--			<cube url="panos/__________.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />-->
+<!--		</image>-->
 
-		<preview url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/preview.jpg" />
+<!--		<image if="webvr.isenabled OR device.mobilevr">-->
+<!--			<cube url="panos/__________.tiles/vr/pano_%s.jpg" />-->
+<!--		</image>-->
 
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,4864" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="%5BGroup 32%5D-PG5A1953_PG5A1958-6 images_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_34_-PG5A1965_PG5A1970-6_images_fhdr" title="%5BGroup 34%5D-PG5A1965_PG5A1970-6 images_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="%5BGroup 35%5D-PG5A1971_PG5A1976-6 images_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="%5BGroup 3%5D-PG5A2094_PG5A2099-6 images" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_43_-PG5A2015_PG5A2020-6_images" title="%5BGroup 43%5D-PG5A2015_PG5A2020-6 images" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="%5BGroup 5%5D-PG5A2107_PG5A2112-6 images" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="%5BGroup 9%5D-PG5A1824_PG5A1829-6 images" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene_______" title="гот" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/______.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/______.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/______.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene___________" title="копия" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/__________.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/__________.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/__________.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/__________.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
+<!--	</scene>-->
 
 </krpano>
