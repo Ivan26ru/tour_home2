@@ -77,6 +77,77 @@
 		if(startactions !== null, startactions() );
 	</action>
 
+	<layer name="youtube_1" keep="true" type="text"
+		   align="leftbottom"
+		   width="200px"
+		   height="120x"
+		   maskchildren="true"
+		   bgalpha="0"
+		   x="30"
+		   y="35"
+	>
+		<layer name="youtube"
+			   keep="true"
+			   parent="youtube_1"
+			   type="image"
+			   url="skin/img_video.jpg"
+			   bgcolor="0x000000"
+			   width="100%"
+			   height="100%"
+			   bgroundedge="10"
+			   onclick="trace('test')"
+		/>
+
+		<layer name="youtube_btn"
+			   keep="true"
+			   parent="youtube_1"
+			   type="image"
+			   url="skin/youtube.png"
+			   align="center"
+			   bgcolor="0x000000"
+			   width="50px"
+			   height="prop"
+			   enabled="false"
+			   onclick=""
+			   bgroundedge="10"
+		/>
+	</layer>
+
+	<!--events mobile-->
+	<action name="action_mobile-on" keep="true">
+		trace('action_mobile-on');
+
+		set(layer[youtube_1].visible,false);
+	</action>
+
+	<action name="action_mobile-off" keep="true">
+		trace('action_mobile-off');
+
+		set(layer[youtube_1].visible,true);
+	</action>
+
+	<action name="vr_on">
+		set(is_vr,true);
+		<!--		trace('vr_on');-->
+	</action>
+
+	<action name="vr_off">
+		set(is_vr,false);
+		<!--		trace('vr_off');-->
+	</action>
+
+	<events name="is_vr" keep="true"
+			webvr_onentervr="vr_on()"
+			webvr_onexitvr="vr_off()"
+	/>
+
+	<events name="mobile" keep="true"
+			onresize="if(stagewidth LT 1000 OR is_vr, action_mobile-on(), action_mobile-off());"
+			webvr_onentervr=""
+			webvr_onexitvr=""
+	/>
+
+
 <!--	@todo start scene -->
 	<scene name="scene__Group_8_-PG5A1818_PG5A1823-6_images" title="Главное фойе" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
