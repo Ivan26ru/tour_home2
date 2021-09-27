@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b2f4cb14-c700-4150-b1b4-8f1cb83313a4" name="31.31.198.243" url="http://31.31.198.243">
+        <fileTransfer rootFolder="/project.video-vr-360.ru/3d/home_2" host="31.31.198.243" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
