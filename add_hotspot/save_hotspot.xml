@@ -1,0 +1,59 @@
+
+<krpano>
+
+	<include url="plugins_l/plugin_a/photo.xml"/>
+	<include url="plugins_l/plugin_a/youtube.xml"/>
+	<include url="plugins_l/plugin_a/sound.xml"/>
+	<include url="plugins_l/plugin_a/video_hs.xml"/>
+	<include url="plugins_l/plugin_a/video.xml"/>
+	<include url="plugins_l/plugin_a/poligon.xml"/>
+
+	<addhs_settings  pin_cod="2019"
+ 					 sound_close_click="true" 
+ 					 video_close_click="true" 
+ 					 youtube_close_click="true" 
+					 FIRSTXML="tour" 
+					 path="%FIRSTXML%/" 
+					 action_list="'add_hotspot/plugins_l/actionSM.html'" 
+					 photo="true" 
+					 video="true" 
+					 youtube="true" 
+ 		   		/>
+	
+
+ 
+	
+ <style name="pl_hs_add_hs"
+ 		keep="true"
+		enabled2="true"
+ 		visible2="true"
+ 		visible="false"
+ 		alpha="1"
+ 		alpha2="1"
+ 		capture="false"
+ 		handcursor="true"
+ 		zorder="0"
+ 		install_onclick="14"
+ 		fov_EL="90"
+ 		fillcolor="0x1500FF"
+ 		fillcolor2="0xE80606"
+ 		fillalpha="0.50"
+ 		fillalpha2="0.69"
+ 		borderwidth="5"
+ 		borderwidth2="4"
+ 		bordercolor="0xFF2B00"
+ 		bordercolor2="0xFFEE00"
+ 		borderalpha="1.00"
+ 		borderalpha2="1.00"
+ 		onover="set_pol_2(get(name));"
+ 		onout="set_pol_1(get(name));"
+ 		ondown="ondown_pl_hs();"
+ 		blendmode="normal"
+ 		group=""
+	 />
+
+	 <!-- polygonal hotspot -->
+
+
+ 
+</krpano>
