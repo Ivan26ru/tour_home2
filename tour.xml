@@ -1,6 +1,7 @@
 ﻿<krpano version="1.20.9" title="Дом">
 
 	<include url="skin/vtourskin.xml" />
+	<include url="floorplan_SM/editor/floorplan_SM.xml" />
 <!--	<include url="add_hotspot/plugins_l/add_hotspot.xml" />-->
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
