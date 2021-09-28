@@ -1,45 +1,69 @@
 
 <krpano>
 
-    <plan_settings  pin_cod="" 
- 					start_open_plan="true" 
- 					start_open_plan_mobila="true" 
-					point_url_1="red.png" 
-					point_url_2="gray.png" 
-					point_url_3="green.png" 
-					pointV_url_1="gl_r.png" 
-					pointV_url_2="gl.png" 
-					point_current="true" 
-					point_scale="0.41" 
-					radar_scale="0.4" 
-					compass_enabled="false" 
-					start_open_compass="true" 
-					compass_on_plan="false" 
-					title_spot="true" 
-					title_V="true" 
-					keep_viev="true" 
-					design_bgcolor_cb="8732208" 
-					click_spot_close_plan="false" 
-					click_V_close_plan="false" 
-					click_close_plan="false" 
-					onhover_button_open_plan="false" 
-					width_mobile="0.8" 
-					height_mobile="0.9" 
-					name_FIRSTXML="tour" 
-					list_plan="true" 
-					button_fullscreen="true" 
-					angle_placemark="true" 
-					open_plan_resetting_size="false" 
- 				/>
+	    <plan_settings  pin_cod="9112"
+						start_open_plan="true"
+						start_open_plan_mobila="true"
+						point_url_1="red.png"
+						point_url_2="gray.png"
+						point_url_3="green.png"
+						pointV_url_1="gl_r.png"
+						pointV_url_2="gl.png"
+						point_current="true"
+						point_scale="2"
+						radar_scale="1"
+						compass_enabled="false"
+						start_open_compass="true"
+						compass_on_plan="false"
+						title_spot="true"
+						title_V="true"
+						keep_viev="true"
+						design_bgcolor_cb="8732208"
+						click_spot_close_plan="false"
+						click_V_close_plan="false"
+						click_close_plan="false"
+						onhover_button_open_plan="false"
+						width_mobile="0.8"
+						height_mobile="0.9"
+						name_FIRSTXML="tour"
+						list_plan="true"
+						button_fullscreen="true"
+						angle_placemark="true"
+						open_plan_resetting_size="false"
+/>
 
-   
-   <layer  name="top_container_plan"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="17"  y="21"  width="565"  height="26"  maskchildren="false"  zorder="50" 
- 			ox="0"  oy="-0.93"  bgcolor="8732208"  bgalpha="0.43"  bgcapture="true"  bgborder="0,0,0,0 0xE7FF00 1.00"  bgshadow="0 5 16 0 0x0B0B0B 0.34"  bgroundedge="0 0 0 0" 
- 			onhover=""  onout=""  ondown="drag_plan();"  />
+	    <layer  name="plansm_1"  style="plan_layer"  name_plan="Этаж 1"  plan_ur="plan_1.jpg"  start_scene="0"  compas_flpl="0"  />
+	    <layer  name="plansm_2"  style="plan_layer"  name_plan="Этаж 2"  plan_ur="plan_2.jpg"  start_scene="0"  compas_flpl="0"  />
+	    <layer  name="plansm_3"  style="plan_layer"  name_plan="Этаж 3"  plan_ur="plan_3.jpg"  start_scene="0"  compas_flpl="0"  />
 
-   <layer  name="container_plan1"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="17"  y="47"  width="565"  height="304"  maskchildren="true"  zorder="49" 
- 			ox="0"  oy="0"  bgcolor="16204"  bgalpha="0.55"  bgcapture="true"  bgborder="0,0,0,0 0xE6FF00 0.00"  bgshadow="2 5 10 4 0x1D1D1D 0.49"  bgroundedge="0 0 0 0" 
- 			onhover="set(maschtab,true); "  onout="set(maschtab,false);"  ondown="0"  />
+	    <layer  name="pointfr_1"  style="point_fpr"  erscena="scene__group_8_-pg5a1818_pg5a1823-6_images"  x="449"  y="1443"  scale="2"  heading2="234.53"  nam_plan="plansm_1"  tit_scena="1 Главное фойе"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_2"  style="point_fpr"  erscena="scene__group_15_-pg5a1857_pg5a1862-6_images_fhdr"  x="898"  y="972"  scale="2"  heading2="227.83"  nam_plan="plansm_1"  tit_scena="3 Гостиная 1 этажа"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_3"  style="point_fpr"  erscena="scene_______"  x="728"  y="1465"  scale="2"  heading2="265.36"  nam_plan="plansm_1"  tit_scena="5 Гостевой туалет 1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_4"  style="point_fpr"  erscena="scene__group_13_-pg5a1851_pg5a1856-6_images"  x="743"  y="1398"  scale="2"  heading2="448.6"  nam_plan="plansm_1"  tit_scena="4 Гардеробная 1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_5"  style="point_fpr"  erscena="scene__group_21_-pg5a1876_pg5a1882-6_images_fhdr"  x="989"  y="1273"  scale="2"  heading2="390.28"  nam_plan="plansm_1"  tit_scena="6 Столовая"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_6"  style="point_fpr"  erscena="scene__group_22_-pg5a1883_pg5a1888-6_images_fhdr"  x="1149"  y="1085"  scale="2"  heading2="50.55"  nam_plan="plansm_1"  tit_scena="6 Столовая"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_7"  style="point_fpr"  erscena="scene__group_23_-pg5a1889_pg5a1894-6_images"  x="1316"  y="1443"  scale="2"  heading2="-3.98"  nam_plan="plansm_1"  tit_scena="7 Рабочая кухня"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_8"  style="point_fpr"  erscena="scene__group_7_-pg5a2121_pg5a2126-6_images"  x="1531"  y="1187"  scale="2"  heading2="243.03"  nam_plan="plansm_1"  tit_scena="11 Гараж"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_9"  style="point_fpr"  erscena="scene__group_24_-pg5a1895_pg5a1900-6_images_fhdr"  x="730"  y="526"  scale="2"  heading2="30.47"  nam_plan="plansm_1"  tit_scena="14 Бассейн"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_10"  style="point_fpr"  erscena="scene__group_32_-pg5a1953_pg5a1958-6_images_fhdr"  x="404"  y="587"  scale="2"  heading2="-182.65"  nam_plan="plansm_1"  tit_scena="14 Бассейн"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_11"  style="point_fpr"  erscena="scene__group_30_-pg5a1940_pg5a1945-6_images"  x="521"  y="391"  scale="2"  heading2="-180.06"  nam_plan="plansm_1"  tit_scena="15 СПА коридор с душем"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_12"  style="point_fpr"  erscena="scene__group_27_-pg5a1921_pg5a1926-6_images_fhdr"  x="430"  y="432"  scale="2"  heading2="-3.21"  nam_plan="plansm_1"  tit_scena="16 Хамам"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_13"  style="point_fpr"  erscena="scene__group_29_-pg5a1933_pg5a1939-6_images"  x="441"  y="311"  scale="2"  heading2="161.25"  nam_plan="plansm_1"  tit_scena="17 Сауна"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_14"  style="point_fpr"  erscena="scene__group_31_-pg5a1946_pg5a1951-6_images"  x="602"  y="422"  scale="2"  heading2="194.3"  nam_plan="plansm_1"  tit_scena="18 СПА туалет"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_15"  style="point_fpr"  erscena="scene__group_28_-pg5a1927_pg5a1932-6_images"  x="609"  y="309"  scale="2"  heading2="258.63"  nam_plan="plansm_1"  tit_scena="19 СПА раздевалка"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_16"  style="point_fpr"  erscena="scene__group_26_-pg5a1915_pg5a1920-6_images"  x="741"  y="391"  scale="2"  heading2="178.1"  nam_plan="plansm_1"  tit_scena="20 Тренажерный зал"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_17"  style="point_fpr"  erscena="scene__group_10_-pg5a1830_pg5a1835-6_images"  x="1005"  y="655"  scale="2"  heading2="493.77"  nam_plan="plansm_1"  tit_scena="21 Терраса-балкон 1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+	    <layer  name="pointfr_18"  style="point_fpr"  erscena="scene__group_9_-pg5a1824_pg5a1829-6_images"  x="1184"  y="859"  scale="2"  heading2="613.54"  nam_plan="plansm_1"  tit_scena="21 Терраса-балкон 1"  url="%FIRSTXML%/floorplan_SM/iconPoint/red.png"  icon_1="red.png"  icon_2="gray.png"  icon_3="green.png"  />
+
+	<!-- no viewpoints  -->
+
+	   <layer  name="top_container_plan"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="17"  y="21"  width="775"  height="26"  maskchildren="false"  zorder="50"
+			   ox="0"  oy="-0.93"  bgcolor="8732208"  bgalpha="0.43"  bgcapture="true"  bgborder="0,0,0,0 0xE7FF00 1.00"  bgshadow="0 5 16 0 0x0B0B0B 0.34"  bgroundedge="0 0 0 0"
+			   onhover=""  onout=""  ondown="drag_plan();"  />
+
+	   <layer  name="container_plan1"  type="container"  keep="true"  enabled="true"  alpha="0"  align="lefttop"  x="17"  y="47"  width="775"  height="637"  maskchildren="true"  zorder="49"
+			   ox="0"  oy="0"  bgcolor="16204"  bgalpha="0.55"  bgcapture="true"  bgborder="0,0,0,0 0xE6FF00 0.00"  bgshadow="2 5 10 4 0x1D1D1D 0.49"  bgroundedge="0 0 0 0"
+			   onhover="set(maschtab,true); "  onout="set(maschtab,false);"  ondown="0"  />
 
 
 </krpano>
