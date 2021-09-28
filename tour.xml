@@ -150,7 +150,7 @@
 
 
 <!--	@todo start scene -->
-	<scene name="scene__Group_8_-PG5A1818_PG5A1823-6_images" title="Главное фойе" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_8_-PG5A1818_PG5A1823-6_images" title="1 Главное фойе" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -186,7 +186,7 @@
 
 <!--	</scene>-->
 
-	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images_fhdr" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images_fhdr" title="3 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -204,7 +204,7 @@
 
 	</scene>
 
-	<scene name="scene_1" title="Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_1" title="?????????????" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -222,7 +222,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="4 Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -240,7 +240,7 @@
 
 	</scene>
 
-	<scene name="scene_______" title="Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_______" title="5 Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -258,7 +258,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_21_-PG5A1876_PG5A1882-6_images_fhdr" title="Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_21_-PG5A1876_PG5A1882-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_21_-PG5A1876_PG5A1882-6_images_fhdr" title="6 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_21_-PG5A1876_PG5A1882-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -276,7 +276,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_22_-PG5A1883_PG5A1888-6_images_fhdr" title="Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_22_-PG5A1883_PG5A1888-6_images_fhdr" title="6 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -294,7 +294,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_23_-PG5A1889_PG5A1894-6_images" title="Рабочая кухня" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_23_-PG5A1889_PG5A1894-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_23_-PG5A1889_PG5A1894-6_images" title="7 Рабочая кухня" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_23_-PG5A1889_PG5A1894-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -312,7 +312,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_7_-PG5A2121_PG5A2126-6_images" title="Гараж" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A2121_PG5A2126-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_7_-PG5A2121_PG5A2126-6_images" title="11 Гараж" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A2121_PG5A2126-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -330,7 +330,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_24_-PG5A1895_PG5A1900-6_images_fhdr" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_24_-PG5A1895_PG5A1900-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_24_-PG5A1895_PG5A1900-6_images_fhdr" title="14 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_24_-PG5A1895_PG5A1900-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -366,7 +366,7 @@
 
 <!--	</scene>-->
 
-	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="14 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -385,7 +385,7 @@
 	</scene>
 
 
-	<scene name="scene__Group_30_-PG5A1940_PG5A1945-6_images" title="СПА коридор с душем" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_30_-PG5A1940_PG5A1945-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_30_-PG5A1940_PG5A1945-6_images" title="15 СПА коридор с душем" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_30_-PG5A1940_PG5A1945-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -403,7 +403,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_27_-PG5A1921_PG5A1926-6_images_fhdr" title="Хамам" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_27_-PG5A1921_PG5A1926-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_27_-PG5A1921_PG5A1926-6_images_fhdr" title="16 Хамам" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_27_-PG5A1921_PG5A1926-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -421,7 +421,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_29_-PG5A1933_PG5A1939-6_images" title="Сауна" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_29_-PG5A1933_PG5A1939-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_29_-PG5A1933_PG5A1939-6_images" title="17 Сауна" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_29_-PG5A1933_PG5A1939-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -439,7 +439,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_31_-PG5A1946_PG5A1951-6_images" title="СПА туалет" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_31_-PG5A1946_PG5A1951-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_31_-PG5A1946_PG5A1951-6_images" title="18 СПА туалет" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_31_-PG5A1946_PG5A1951-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -457,7 +457,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_28_-PG5A1927_PG5A1932-6_images" title="СПА раздевалка" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_28_-PG5A1927_PG5A1932-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_28_-PG5A1927_PG5A1932-6_images" title="19 СПА раздевалка" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_28_-PG5A1927_PG5A1932-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -475,7 +475,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_26_-PG5A1915_PG5A1920-6_images" title="Тренажерный зал" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_26_-PG5A1915_PG5A1920-6_images" title="20 Тренажерный зал" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -493,7 +493,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_10_-PG5A1830_PG5A1835-6_images" title="Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_10_-PG5A1830_PG5A1835-6_images" title="21 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -511,7 +511,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="21 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -547,7 +547,7 @@
 
 	<!--	</scene>-->
 
-	<scene name="scene__Group_33_-PG5A1959_PG5A1964-6_images_fhdr" title="Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_33_-PG5A1959_PG5A1964-6_images_fhdr" title="22 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -565,7 +565,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_34_-PG5A1965_PG5A1970-6_images_fhdr" title="Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_34_-PG5A1965_PG5A1970-6_images_fhdr" title="22 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -583,7 +583,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="22 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -601,45 +601,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_37_-PG5A1979_PG5A1984-6_images" title="Ванная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-
-
-	<scene name="scene__Group_38_-PG5A1985_PG5A1990-6_images" title="Спальня 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_40_-PG5A1997_PG5A2002-6_images" title="Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_40_-PG5A1997_PG5A2002-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_40_-PG5A1997_PG5A2002-6_images" title="23 Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_40_-PG5A1997_PG5A2002-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -657,7 +619,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_41_-PG5A2003_PG5A2008-6_images" title="Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_41_-PG5A2003_PG5A2008-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_41_-PG5A2003_PG5A2008-6_images" title="23 Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_41_-PG5A2003_PG5A2008-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -675,7 +637,43 @@
 
 	</scene>
 
-	<scene name="scene__Group_42_-PG5A2009_PG5A2014-6_images" title="Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_37_-PG5A1979_PG5A1984-6_images" title="25 Ванная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__Group_38_-PG5A1985_PG5A1990-6_images" title="26 Спальня 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__Group_42_-PG5A2009_PG5A2014-6_images" title="27 Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -693,7 +691,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_43_-PG5A2015_PG5A2020-6_images" title="Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_43_-PG5A2015_PG5A2020-6_images" title="27 Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -711,25 +709,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_44_-PG5A2021_PG5A2026-6_images" title="Ванная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
-	<scene name="scene__Group_45_-PG5A2027_PG5A2032-6_images" title="Спальня 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_45_-PG5A2027_PG5A2032-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_45_-PG5A2027_PG5A2032-6_images" title="28 Спальня 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_45_-PG5A2027_PG5A2032-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -747,7 +727,25 @@
 
 	</scene>
 
-	<scene name="scene__Group_39_-PG5A1991_PG5A1996-6_images" title="Гостевой туалет 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_44_-PG5A2021_PG5A2026-6_images" title="30 Ванная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
+	<scene name="scene__Group_39_-PG5A1991_PG5A1996-6_images" title="31 Гостевой туалет 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -765,7 +763,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_49_-PG5A2052_PG5A2057-6_images" title="Ванная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_49_-PG5A2052_PG5A2057-6_images" title="32 Ванная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -783,7 +781,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_48_-PG5A2046_PG5A2051-6_images" title="Спальня 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_48_-PG5A2046_PG5A2051-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_48_-PG5A2046_PG5A2051-6_images" title="33 Спальня 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_48_-PG5A2046_PG5A2051-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
@@ -800,7 +798,7 @@
 
 	</scene>
 
-	<scene name="scene__Group_46_-PG5A2034_PG5A2039-6_images" title="Спальня-гостиная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_46_-PG5A2034_PG5A2039-6_images" title="35 Спальня-гостиная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -818,7 +816,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_47_-PG5A2040_PG5A2045-6_images" title="Ванная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_47_-PG5A2040_PG5A2045-6_images" title="37 Ванная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -836,7 +834,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_50_-PG5A2059_PG5A2064-6_images" title="Гостинная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_50_-PG5A2059_PG5A2064-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_50_-PG5A2059_PG5A2064-6_images" title="40 Гостинная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_50_-PG5A2059_PG5A2064-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -854,7 +852,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_2_-PG5A2087__R1CKTAI-6_images" title="Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A2087__R1CKTAI-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_2_-PG5A2087__R1CKTAI-6_images" title="42 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A2087__R1CKTAI-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -872,7 +870,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="42 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -890,8 +888,7 @@
 
 	</scene>
 
-
-	<scene name="scene__Group_4_-PG5A2100_PG5A2105-6_images" title="Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_4_-PG5A2100_PG5A2105-6_images" title="43 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -909,8 +906,7 @@
 
 		</scene>
 
-
-	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="43 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -928,8 +924,7 @@
 
 	</scene>
 
-
-	<scene name="scene__Group_6_-PG5A2115_PG5A2120-6_images" title="Ванная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_6_-PG5A2115_PG5A2120-6_images" title="44 Ванная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -947,7 +942,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_1_-PG5A2077_PG5A2082-6_images" title="Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A2077_PG5A2082-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_1_-PG5A2077_PG5A2082-6_images" title="47 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A2077_PG5A2082-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -965,7 +960,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_0_-PG5A2071_PG5A2076-6_images" title="Ванная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A2071_PG5A2076-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_0_-PG5A2071_PG5A2076-6_images" title="48 Ванная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A2071_PG5A2076-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
