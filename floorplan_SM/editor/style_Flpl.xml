@@ -37,7 +37,7 @@
 			   textshadow ="0"
 	        />	
 	<!-- Стиль текста в списке планов     onloaded="delayedcall(1,cont_width_flpl(pixelwidth) );" -->         		   
-	<style 	name="text_flpl" enabled="true" bgcapture="true"  keep="true" align="lefttop" x="0" y="0" width="" height="30" zorder="95" handcursor="true" type="text" css="color:#00FFFF; font-size:16px;"  vcenter="true" padding="2 10 2 10"  bg="false" bgcolor="0x000000" bgalpha="0.3" bgroundedge="0"  txtshadow="0 0 4 0x000000 1" onover="set(bg,true);"  onout="set(bg,false);"
+	<style 	name="text_flpl" enabled="true" bgcapture="true"  keep="true" align="lefttop" x="0" y="0" width="" height="30" zorder="95" handcursor="true" type="text" css="color:#FFFFFF; font-size:16px;"  vcenter="true" padding="2 10 2 10"  bg="false" bgcolor="0x000000" bgalpha="0.3" bgroundedge="0"  txtshadow="0 0 4 0x000000 1" onover="set(bg,true);"  onout="set(bg,false);"
 			
 		/>
 	<!-- style point   -->		
