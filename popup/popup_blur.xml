@@ -1,0 +1,147 @@
+<krpano>
+
+<!-- the logo image -->
+	<plugin name="pp_blur" keep="true"
+		url="%VIEWER%/plugins/pp_blur.js"
+		enabled="true"
+		range="0.0"
+		linearrgb="false"
+		order="1"
+		phase="2"
+		/>
+
+<layer name="popup_bg"
+	type="text"
+	
+	align="lefttop"
+	x="0" y="0"
+	width="5000"
+	height="5000"
+	bgcolor="0x333333"
+	alpha="0.1"
+	zorder="7"
+	keep="true"
+	visible="false"
+	onclick=""
+	/>
+	<action name="popup" scope="private:POPUP" args="type, content, width, height, scrollbars"><![CDATA[
+		if(popup, break(); );
+
+		addlayer('popup', popup);
+
+		set(popup,
+			type=container,
+			width=calc(min(width,global.stagewidth*0.8)),
+			height=calc(min(height,global.stageheight*0.8)),
+			align=center,
+			bgborder='1 0xFFFFFF 1',
+			bgcolor=0xFFFFFF,
+			bgalpha=0.3,
+			bgshadow='0 10 20 0x000000 0.5',
+			bgcapture=true,
+			maskchildren=true,
+			capture=true,
+			handcursor=false,
+			alpha=0,
+			zorder=8
+
+		);
+
+		if(type == 'html',
+			copy(popup.datacontent, content);
+			calc(popup.onloaded, 'add_html_code(get(datacontent),'+scrollbars+');');
+
+		  ,type == 'iframe',
+			calc(popup.datacontent, '<iframe style="position:absolute;width:100%;height:100%;top:0px;left:0px;" src="'+content+'" frameborder="0" allowfullscreen></iframe>');
+			calc(popup.onloaded, 'add_html_code(get(datacontent),'+scrollbars+');');
+
+		  ,type == 'image',
+		 	set(popup,
+		 		bgcolor=0xFFFFFF,
+		 		bgalpha=1,
+		 		zorder=8
+		 	);
+
+
+			addlayer("popup_image", img);
+			set(img,
+				url=get(content),
+				align=center,
+				width=-20, height=-20,
+				parent=get(popup.name),
+				onloaded='popup_imageloaded()'
+			);
+			
+		);
+
+		set(global.layer[popup_bg].visible,true);
+		tween(global.plugin[pp_blur].range, 40.0);
+		delayedcall(0.2, tween(global.layer[popup].alpha, 1.0); );
+
+
+		set(global.layer[popup_bg].onclick,
+			set(global.layer[popup_bg].visible,false);
+			set(global.events[popup].name, null);
+			tween(global.plugin[pp_blur].range, 0.0);
+			tween(global.layer[popup].alpha, 0.0, 0.25, default,
+				removelayer('popup', true);
+				scope(private:POPUP, delete(popup); );
+			);
+		);
+	]]></action>
+
+
+	<action name="popup_imageloaded" scope="private:POPUP">
+		calc(imgw, caller.imagewidth + 20);
+		calc(imgh, caller.imageheight + 20);
+		calc(maxw, global.stagewidth*0.9);
+		calc(maxh, global.stageheight*0.8);
+		if(imgw GT maxw,
+			calc(imgh, round(imgh * maxw / imgw));
+			copy(imgw, maxw);
+		);
+		if(imgh GT maxh,
+			calc(imgw, round(imgw * maxh / imgh));
+			copy(imgh, maxh);
+		);
+
+		set(global.layer[get(caller.parent)], width=get(imgw), height=get(imgh) );
+	</action>
+
+
+
+	<!-- arguments: 1=htmlcode, 2=scrollbars -->
+	<action name="add_html_code" type="Javascript"><![CDATA[
+		var div = document.createElement("div");
+
+		// basic styles to fit into the layer size and allow scrolling:
+		div.style.width = "100%";
+		div.style.height = "100%";
+		div.style.boxSizing = "border-box";
+		div.style.overflow = args[2] == "true" ? "auto" : "hidden";
+
+		// allow text selection (optional):
+		div.style.webkitUserSelect =
+		div.style.MozUserSelect =
+		div.style.msUserSelect =
+		div.style.userSelect = "text";
+
+		function stopPropagation(e){ e.stopPropagation(); }
+		function preventDefault(e){ e.preventDefault(); }
+
+		// enable browsed-based mouse-wheel and touch-scrolling support:
+		div.addEventListener("wheel", stopPropagation, true);
+		div.addEventListener("mousewheel", stopPropagation, true);
+		div.addEventListener("DOMMouseScroll", stopPropagation, true);
+		div.addEventListener("touchstart", function(event){ if(krpano.device.ios && window.innerHeight == krpano.display.htmltarget.offsetHeight){ /* avoid the iOS 'overscrolling' for fullpage viewers */ var bs = document.body.parentNode.style; bs.position="fixed"; bs.top=0; bs.left=0; bs.right=0; bs.bottom=0; } krpano.control.preventTouchEvents = false; event.stopPropagation(); }, true);
+		div.addEventListener("touchend", function(event){ krpano.control.preventTouchEvents = true; event.stopPropagation(); }, true);
+		div.addEventListener("gesturestart", preventDefault, true);
+
+		// add the html code:
+		div.innerHTML = args[1];
+
+		// add the div to the layer element:
+		caller.sprite.appendChild(div);
+	]]></action>
+
+</krpano>

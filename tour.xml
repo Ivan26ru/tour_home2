@@ -1,5 +1,5 @@
 ﻿<krpano version="1.20.9" title="Дом">
-
+	<include url="popup/popup_blur.xml" keep="true"/>
 	<include url="skin/vtourskin.xml" />
 	<include url="floorplan_SM/editor/floorplan_SM.xml" />
 	<include url="add_hotspot/plugins_l/add_hotspot.xml" />
@@ -97,7 +97,7 @@
 			   height="100%"
 			   bgroundedge="10"
 			   youtube_h="60"
-			   onclick="youtubeplayer_open_addhs(qQouKuCUJ1E);"
+			   onclick="close_plan();popup('iframe', 'https://www.youtube.com/embed/qQouKuCUJ1E?rel=0&amp;hd=1&amp;vq=hd1080&amp;showinfo=0&amp;autoplay=1', 900, 506, false);"
 			   ondown="drag_LinkSM()"
 		/>
 
