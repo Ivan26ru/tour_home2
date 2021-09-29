@@ -204,24 +204,6 @@
 
 	</scene>
 
-	<scene name="scene_1" title="?????????????" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/1.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/1.tiles/vr/pano_%s.jpg" />
-		</image>
-
-	</scene>
-
 	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="4 Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -959,6 +941,26 @@
 			</image>
 
 		</scene>
+
+
+	<scene name="scene_1" title="47 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/1.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/1.tiles/vr/pano_%s.jpg" />
+		</image>
+
+	</scene>
+
 
 	<scene name="scene__Group_0_-PG5A2071_PG5A2076-6_images" title="48 Ванная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A2071_PG5A2076-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
