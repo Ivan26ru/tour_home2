@@ -2,7 +2,7 @@
 
 	<include url="skin/vtourskin.xml" />
 	<include url="floorplan_SM/editor/floorplan_SM.xml" />
-<!--	<include url="add_hotspot/plugins_l/add_hotspot.xml" />-->
+	<include url="add_hotspot/plugins_l/add_hotspot.xml" />
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
 	               maps_type="google"
@@ -980,7 +980,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_0_-PG5A1770_PG5A1775-6_images" title="Слева от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A1770_PG5A1775-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_0_-PG5A1770_PG5A1775-6_images" title="53 Слева от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A1770_PG5A1775-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -998,7 +998,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_1_-PG5A1776_PG5A1781-6_images" title="Главный вход" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_1_-PG5A1776_PG5A1781-6_images" title="54 Главный вход" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -1016,7 +1016,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_2_-PG5A1782_PG5A1787-6_images" title="Справа от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A1782_PG5A1787-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_2_-PG5A1782_PG5A1787-6_images" title="55 Справа от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A1782_PG5A1787-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -1034,7 +1034,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_5_-PG5A1790_PG5A1795-6_images" title="Центр м/у беседкой и домом" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A1790_PG5A1795-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_5_-PG5A1790_PG5A1795-6_images" title="56 Центр м/у беседкой и домом" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A1790_PG5A1795-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -1052,7 +1052,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_6_-PG5A1796_PG5A1801-6_images" title="Беседка" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A1796_PG5A1801-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_6_-PG5A1796_PG5A1801-6_images" title="57 Беседка" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A1796_PG5A1801-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -1070,7 +1070,7 @@
 
 		</scene>
 
-	<scene name="scene__Group_7_-PG5A1802_PG5A1809-6_images" title="Справа от дома СПА" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A1802_PG5A1809-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_7_-PG5A1802_PG5A1809-6_images" title="58 Справа от дома СПА" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A1802_PG5A1809-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
 
