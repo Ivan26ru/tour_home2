@@ -66,7 +66,7 @@
 <!--	 <include url="skin/vtourskin_design_flat_light.xml"  />-->
 <!--	 <include url="skin/vtourskin_design_glass.xml"       />-->
 <!--	 <include url="skin/vtourskin_design_ultra_light.xml" /> -->
-<!--	 <include url="skin/vtourskin_design_117.xml"         />-->
+	 <include url="skin/vtourskin_design_117.xml"         />
 <!--	 <include url="skin/vtourskin_design_117round.xml"    />-->
 <!--	 <include url="skin/vtourskin_design_black.xml"       />-->
 
@@ -128,6 +128,32 @@
 <!--		   onclick="toggle(layer[text].visible);"-->
 <!--	/>-->
 
+	<style name="text_style"
+		   keep="false"
+		   visible="true"
+		   type="text"
+		   css="font-size:14px;font-weight:bold;text-align:left;padding:5px;color:#ffffff;"
+		   bg="true"
+		   bgalpha="0.1"
+		   bgcolor="0xffffff"
+		   width="300"
+		   x="30"
+		   y="35"
+		   border="1px #dddddd"
+		   align="rightbottom"
+		   shadow="0" shadowrange="4" shadowcolor="0x333333" shadowangle="70" shadowalpha="0.7"
+		   bgroundedge="10"
+
+	/>
+
+<action name="onhover_title">
+	copy(txt, scene[get(erscena)].title); if(plan_settings.title_spot, showtext(get(txt), STYLE_title_spot); );
+</action>
+
+<!--	<action name="test">-->
+<!--		trace('get(style)');-->
+<!--	</action>-->
+
 	<!--events mobile-->
 	<action name="action_mobile-on" keep="true">
 		trace('action_mobile-on');
@@ -180,6 +206,10 @@
 			<cube url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Главное фойе: площадь 81,4 м2, высота 8,2 м. Полы: мрамор Botticino Classico -слэбы с розеткой Imperador Dark, латунными вставками-Италия. Освещение: 3 хрустальных люстры Faustig D100/H130-Германия. Мебель: кресла, столик, стол Colombo Stile-Италия. Акустика Sonance Bang &amp; Olufsen- Дания. Подсветка RGB Space Canon-Италия. "
+	/>
 	</scene>
 
 <!--	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
@@ -198,7 +228,11 @@
 <!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/vr/pano_%s.jpg" />-->
 <!--		</image>-->
 
-<!--	</scene>-->
+<!--		<layer name="text"-->
+<!--		   style="text_style"-->
+<!--		   html=""-->
+<!--	/>-->
+	<!--	</scene>-->
 
 	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images_fhdr" title="5 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -216,9 +250,12 @@
 			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Гостиная №1: площадь 115,3 м2, высота 3,6-7,8 м. Полы: мрамор Botticinio Classico слэбы-Италия. Стеклянные стены с подсветкой-Швейцария Освещение: люстра  Antologia Quartett, бра Oty Light, торшер и настольные лампы Lamp, споты Modular-Италия. Домашний кинотеатр BeoVision 4-103&#34;, BeoSound 9000, акустическая система BeoLab 5 и BeoLab 3 Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер K-1500- США. Караоке система AST 250 с пультом Yamaha. Рояль-бар Larix Ipe Cavalli Visionare с клавиатурой  Yamaha 403. Мебель: Диван De Seda угловой со встроенными шкафами interlubke -Германия, кресла с пуфами Giorgetti, стол журнальный мраморный Ipe Cavalli Visionare, комод Colombo Stile - Италия. Камин Boley 477 -Германия. Витрины Team by Wellis- Германия. "	/>
 	</scene>
 
-	<scene name="scene___________" title=" 14 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/__________.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene___________" title="14 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/__________.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -234,6 +271,9 @@
 			<cube url="panos/__________.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Гостиная №1: площадь 115,3 м2, высота 3,6-7,8 м. Полы: мрамор Botticinio Classico слэбы-Италия. Стеклянные стены с подсветкой-Швейцария Освещение: люстра  Antologia Quartett, бра Oty Light, торшер и настольные лампы Lamp, споты Modular-Италия. Домашний кинотеатр BeoVision 4-103&#34;, BeoSound 9000, акустическая система BeoLab 5 и BeoLab 3 Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер K-1500- США. Караоке система AST 250 с пультом Yamaha. Рояль-бар Larix Ipe Cavalli Visionare с клавиатурой  Yamaha 403. Мебель: Диван De Seda угловой со встроенными шкафами interlubke -Германия, кресла с пуфами Giorgetti, стол журнальный мраморный Ipe Cavalli Visionare, комод Colombo Stile - Италия. Камин Boley 477 -Германия. Витрины Team by Wellis- Германия. "	/>
 	</scene>
 
 	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="4 Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -252,9 +292,13 @@
 			<cube url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Гардеробная №1: площадь 6,7 м2, высота 3,6 м. Мебель: встроенные шкафы для одежды и обуви Misure Emme Millimetrica-Италия, Schmalenbach-Германия, пуф Colombo Stile - Италия. Освещение: люстры Strass Svarovski Nature- Германия. "
+	/>
 	</scene>
 
-	<scene name="scene_______" title="5 Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_______" title="2 Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -270,6 +314,10 @@
 			<cube url="panos/______.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Гостевой туалет: площадь 5,1м2, высота 3,2 м. Пол и стены Travertino Classico Romano-Италия. Освещение: AXO Light, Itre, Ideallux- Италия. Сантехника: унитаз, писсуар Villeroy&amp;Boch Magnum, Geberit, смесители Kohler, аксессуары Dombracht MEM."
+	/>
 	</scene>
 
 	<scene name="scene__Group_21_-PG5A1876_PG5A1882-6_images_fhdr" title="6 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_21_-PG5A1876_PG5A1882-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -288,6 +336,10 @@
 			<cube url="panos/_Group_21_-PG5A1876_PG5A1882-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Столовая: площадь 111,9м2, высота 3,85 м. Потолки комбинированные с натяжными. Полы: мрамор-Botticino Classico слэбы -Италия. Резная колонна с подсветкой RGB Space Canon-Италия, стена &#34;лепестки розы&#34;с прорезями и внутренней подсветкой. Освещение: Люстры Foscarini, Murano Due, споты - Modular-Италия. Домашний кинотеатр BeoVission 55 &#34;, Kaleidescape видео-аудио сервер K 300- США с акустикой Sonance Bang&amp; Olufsen-Дания. Мебель: кухня и шкафы Poggenpohl PP- черный глянец, кухонная техника Miele, Gaggenau- Германия, столешница Blue Notte Granite- Италия. Винный шкаф и холодильник Sub-Zero-США. Стол круглый, вращающийся из белого сахарного мрамора, стол обеденный- мрамор Draenert-Германия. Комод Ulla,  стулья Kursa и кресла Siegfried - Ipe Cavali Vissionare, Стеклянные витрины Boheme Cattelan Noir, Reflex Onis -Италия, стул барный Otto Bar Creazioni- Италия   Сантехника: смеситель Bianco - Германия."
+	/>
 	</scene>
 
 	<scene name="scene__Group_22_-PG5A1883_PG5A1888-6_images_fhdr" title="12 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -306,6 +358,10 @@
 			<cube url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_23_-PG5A1889_PG5A1894-6_images" title="7 Рабочая кухня" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_23_-PG5A1889_PG5A1894-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -324,6 +380,10 @@
 			<cube url="panos/_Group_23_-PG5A1889_PG5A1894-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Рабочая кухня: площадь 16,7 м2, высота потолков 3,6 м. Полы: Tagina Fucina Grigio Fumo, стены и фартук: мрамор Pietra Antiqua, Piastrelle in Ceramica -Италия. Освещение: люстра VIBIA -Испания, профиль Ideallux-Италия. Мебель: кухня, шкафы Poggenpohl GA глянец, кухонная техника Miele -Германия, столешница Azul Aran Granite- Италия. Стол круглый со стульями из груши Ligne Roset - Франция. Кухня совмещена с кладовой продуктов с отдельным входом,  холодильниками Miele, комодом Ligne Roset-Франция и стелажами для посуды и продуктов. Сантехника: смеситель Hansgrohe- Германия."
+	/>
 	</scene>
 
 	<scene name="scene__Group_7_-PG5A2121_PG5A2126-6_images" title="11 Гараж" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A2121_PG5A2126-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -342,6 +402,10 @@
 			<cube url="panos/_Group_7_-PG5A2121_PG5A2126-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Гараж: площадь 78,3 м2, высота 4,85 м. Стоянка для 4 автомобилей. Полы-наливные эпоксидные Teping- Германия. Стены с подогревом: керамогранит  Crema Natural-Италия. Гаражные ворота Hormann - Германия. Раковина, горячая и холодная вода, канализация, ливневая система. Подиум с ограждением и встроенными шкафами для хранения. В гараже размещены вентиляционные установки и пароувлажнитель Brezart. Имеется шкаф для обуви. Освещение: внутреннее светильники и профили  Ideallux, наружное Martini с датчиком движения- Италия"
+	/>
 	</scene>
 
 	<scene name="scene__Group_24_-PG5A1895_PG5A1900-6_images_fhdr" title="15 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_24_-PG5A1895_PG5A1900-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -360,6 +424,10 @@
 			<cube url="panos/_Group_24_-PG5A1895_PG5A1900-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 <!--	<scene name="scene__Group_25_-PG5A1901_PG5A1906-6_images" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
@@ -378,7 +446,11 @@
 <!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/vr/pano_%s.jpg" />-->
 <!--		</image>-->
 
-<!--	</scene>-->
+<!--		<layer name="text"-->
+<!--		   style="text_style"-->
+<!--		   html=""-->
+<!--	/>-->
+	<!--	</scene>-->
 
 	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="16 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -396,6 +468,10 @@
 			<cube url="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Бассейн: площадь 40,6 м2, высота 4,0 м. Потолок комбинированный с натяжным для эффекта отражения. Полы с подогревом: на плитке сборный пол из термоясеня, дорожка-ручей из мозаики NeoGlass 242 Sicis. Стеклянные стены и перегородки со смежными помещениями гостинной и тренажерным залом. Стены и колонны облицованы Travertino Noce - Италия. Чаша бассейна с постоянным уровнем воды и подсветкой, длинной 18 м, глубиной 1,5м. с площадками и сиденьями для отдыха. Встроены атракционы &#34;гейзер&#34; и &#34;противоток&#34;. Чаша облицована мозаикой NeoGlass 242 с мозаичными панно MSM/Irridium Sicis-Италия. Озоновая водоподготовка OSPA (без хлорирования) -Германия с дистанционным контролем и управлением качеством и температурой воды. Гидромассажная ванна на 6 человек Jacizzi - Италия с отдельным дистанционным управлением подогревом воды с подсветкой. Акустическая система Sonance Bang &amp; Olufsen -Дания. Освещение: парусные светильники B-Lux- Испания, бра и подвесные светильники Vistosi- Италия. Имеются выходы на террасу 1 этажа и наружную СПА с гидромассажной ванной.  Имеется специальная автоматическая вентиляционная система с осушкой воздуха CDP-35 Breazart. Мебель: столы металл и стекло, лежаки, стулья и кресла из тика Royal Botania- Бельгия. Жалюзи приводные деревянные из рамина HunterDouglas - Голландия."
+	/>
 	</scene>
 
 
@@ -415,6 +491,10 @@
 			<cube url="panos/_Group_30_-PG5A1940_PG5A1945-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=" СПА коридор с душем: площадь 9,1 м2 , высота 3,85 м. Полы с подогревом-на плитке сборный пол из термоясеня. Стены Travertino Classico, мозаика Romano, Glimmer Melon Sicis- Италия. Сантехника: душ.кабина Hansgrohe Raindance с аркой Pharo Shower Arc- Германия. Панели управления и контроля за водопоготовкой воды и управлением акустикой Bang&amp;Olufsen. Освещение: споты Oligio- Италия"
+	/>
 	</scene>
 
 	<scene name="scene__Group_27_-PG5A1921_PG5A1926-6_images_fhdr" title="20 Хамам" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_27_-PG5A1921_PG5A1926-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -433,9 +513,13 @@
 			<cube url="panos/_Group_27_-PG5A1921_PG5A1926-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Хамам: площадь 6,3 м2, высота 2,5 м. Полы и стены с подогревом, мраморная мозаика с панно Sicis- Италия. Полки, курна, камин из мрамора Imperador Dark -Италия. Паровая кабина Klafs 250x250x260- Германия. Освещение Klafs, Svarovski &#34;звездное небо&#34; 80 лучей- Германия. Акустика - Sonance Bang&amp;Olufsen-Дания. Пульт управления Touch Control.  Сантехника: смеситель THG Fish в виде рыбы- Франция."
+	/>
 	</scene>
 
-	<scene name="scene__Group_29_-PG5A1933_PG5A1939-6_images" title="17 Сауна" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_29_-PG5A1933_PG5A1939-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_29_-PG5A1933_PG5A1939-6_images" title="21 Сауна" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_29_-PG5A1933_PG5A1939-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -451,6 +535,10 @@
 			<cube url="panos/_Group_29_-PG5A1933_PG5A1939-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Сауна: площадь 6,3 м2, высота 2,3 м. Полы, стены, потолок - обшиты красным  кедром, полки, спинки, подголовники-абаш. Оборудование сауны Klafs на базе Profi с кислородной системой- Германия. Система звукотерапии Aquaviva с пультом управления. Освещение: 4-х цветные светильники с автоматическим режимом управления. Пульт управления Touch Control."
+	/>
 	</scene>
 
 	<scene name="scene__Group_31_-PG5A1946_PG5A1951-6_images" title="22 СПА туалет" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_31_-PG5A1946_PG5A1951-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -469,6 +557,10 @@
 			<cube url="panos/_Group_31_-PG5A1946_PG5A1951-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="СПА туалет: площадь 2,6 м2, высота 2,5 м. Полы: керамогранит Xisic Metalzado Rect Revigre's -Португалия, стены мрамор Petra Antiqua Biancone Anticato Cerato, Tagina Fucina Comp, Mosaico Nero Fuliggine- Италия. Сантехника: унитаз, раковина Starck 2 Duravit, Geberit Tango, смеситель Dornbracht Circle, зеркало Keuco Plan. Освещение: споты Bega- Италия"
+	/>
 	</scene>
 
 	<scene name="scene__Group_28_-PG5A1927_PG5A1932-6_images" title="23 СПА раздевалка" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_28_-PG5A1927_PG5A1932-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -487,6 +579,10 @@
 			<cube url="panos/_Group_28_-PG5A1927_PG5A1932-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="СПА раздевалка: площадь 6,0 м2, высота 3,6 м. Полы: керамогранит Metal Iron Natural Rect Revigre's -Португалия. Стены мрамор  Antico, мозаика Romano, Glimmer Melon Sicis- Италия. Сантехника: душевая кабина Hansgrohe Raindance, смеситель Dornbracht MEM. Освещение: светильники Axo Light, Ideallux - Италия."
+	/>
 	</scene>
 
 	<scene name="scene__Group_26_-PG5A1915_PG5A1920-6_images" title="17 Тренажерный зал" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -505,6 +601,10 @@
 			<cube url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Тренажерный зал: площадь 23,3 м2 , высота 3,8 м. Пол со спортивным покрытием. Тренажеры: беговая дорожка GFX , комбинированный 4-х функциональный тренажер, трежеры для преса Precor- США. Кулер для воды. Видео-аудио система Bang&amp; Olufsen BeoVision 7-32&#34; - Дания. Kaleidescape видео-аудио сервер K-300- США. Жалюзи приводные деревянные из рамина, HunterDouglas - Голандия. Освещение: профиль Ideallux-Италия."
+	/>
 	</scene>
 
 	<scene name="scene__Group_10_-PG5A1830_PG5A1835-6_images" title="16 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -523,9 +623,13 @@
 			<cube url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html="Терасса 1: площадь 98,6 м2. Полы: Padang Dark Granite- Италия. Стол Tabula Labrador Blue Perl Granite Draenert, стулья Rolf Benz- Германия. Диван, кресла, пуф, столик Manutti - Италия. Стол круглый Royal Botania- Бельгия. Газовые обогреватели- камин Ballu-Bogh. Видео-аудио система Sonance Bang&amp;Olufsen- Дания, Samsung -Корея. Освещение: потолочные светильники и прожектора Wewer Ducre, напольные Ghidini-Италия."
+	/>
 	</scene>
 
-	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="15 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="13 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -541,6 +645,10 @@
 			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<!--	<scene name="scene_1_fhdr" title="1_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">-->
@@ -559,6 +667,10 @@
 		<!--			<cube url="panos/1_fhdr.tiles/vr/pano_%s.jpg" />-->
 		<!--		</image>-->
 
+<!--		<layer name="text"-->
+<!--		   style="text_style"-->
+<!--		   html=""-->
+<!--	/>-->
 	<!--	</scene>-->
 
 	<scene name="scene__Group_33_-PG5A1959_PG5A1964-6_images_fhdr" title="24 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -577,6 +689,10 @@
 			<cube url="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_34_-PG5A1965_PG5A1970-6_images_fhdr" title="25 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -595,6 +711,10 @@
 			<cube url="panos/_Group_34_-PG5A1965_PG5A1970-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="22 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -613,6 +733,10 @@
 			<cube url="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_40_-PG5A1997_PG5A2002-6_images" title="26 Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_40_-PG5A1997_PG5A2002-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -631,6 +755,10 @@
 			<cube url="panos/_Group_40_-PG5A1997_PG5A2002-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_41_-PG5A2003_PG5A2008-6_images" title="28 Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_41_-PG5A2003_PG5A2008-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -649,6 +777,10 @@
 			<cube url="panos/_Group_41_-PG5A2003_PG5A2008-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_37_-PG5A1979_PG5A1984-6_images" title="35 Ванная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -667,6 +799,10 @@
 			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_38_-PG5A1985_PG5A1990-6_images" title="34 Спальня 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -685,6 +821,10 @@
 			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_42_-PG5A2009_PG5A2014-6_images" title="29 Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -703,6 +843,10 @@
 			<cube url="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_43_-PG5A2015_PG5A2020-6_images" title="30 Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -721,6 +865,10 @@
 			<cube url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_45_-PG5A2027_PG5A2032-6_images" title="31 Спальня 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_45_-PG5A2027_PG5A2032-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -739,6 +887,10 @@
 			<cube url="panos/_Group_45_-PG5A2027_PG5A2032-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_44_-PG5A2021_PG5A2026-6_images" title="32 Ванная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -757,6 +909,10 @@
 			<cube url="panos/_Group_44_-PG5A2021_PG5A2026-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_39_-PG5A1991_PG5A1996-6_images" title="27 Гостевой туалет 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -775,6 +931,10 @@
 			<cube url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_49_-PG5A2052_PG5A2057-6_images" title="40 Ванная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -793,6 +953,10 @@
 			<cube url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_48_-PG5A2046_PG5A2051-6_images" title="39 Спальня 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_48_-PG5A2046_PG5A2051-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -810,6 +974,10 @@
 			<cube url="panos/_Group_48_-PG5A2046_PG5A2051-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_46_-PG5A2034_PG5A2039-6_images" title="36 Спальня-гостиная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -828,6 +996,10 @@
 				<cube url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_47_-PG5A2040_PG5A2045-6_images" title="37 Ванная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -846,6 +1018,10 @@
 				<cube url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_50_-PG5A2059_PG5A2064-6_images" title="42 Гостинная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_50_-PG5A2059_PG5A2064-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -864,6 +1040,10 @@
 				<cube url="panos/_Group_50_-PG5A2059_PG5A2064-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_2_-PG5A2087__R1CKTAI-6_images" title="50 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A2087__R1CKTAI-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -882,6 +1062,10 @@
 				<cube url="panos/_Group_2_-PG5A2087__R1CKTAI-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="49 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -900,6 +1084,10 @@
 			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_4_-PG5A2100_PG5A2105-6_images" title="44 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -918,6 +1106,10 @@
 				<cube url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="43 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -936,6 +1128,10 @@
 			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 	<scene name="scene__Group_6_-PG5A2115_PG5A2120-6_images" title="45 Ванная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -954,6 +1150,10 @@
 				<cube url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_1_-PG5A2077_PG5A2082-6_images" title="52 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A2077_PG5A2082-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -972,6 +1172,10 @@
 				<cube url="panos/_Group_1_-PG5A2077_PG5A2082-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 
@@ -991,6 +1195,10 @@
 			<cube url="panos/1.tiles/vr/pano_%s.jpg" />
 		</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 	</scene>
 
 
@@ -1010,6 +1218,10 @@
 				<cube url="panos/_Group_0_-PG5A2071_PG5A2076-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_0_-PG5A1770_PG5A1775-6_images" title="57 Слева от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A1770_PG5A1775-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -1028,6 +1240,10 @@
 				<cube url="panos/_Group_0_-PG5A1770_PG5A1775-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_1_-PG5A1776_PG5A1781-6_images" title="56 Главный вход" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -1046,6 +1262,10 @@
 				<cube url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_2_-PG5A1782_PG5A1787-6_images" title="58 Справа от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A1782_PG5A1787-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -1064,6 +1284,10 @@
 				<cube url="panos/_Group_2_-PG5A1782_PG5A1787-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_5_-PG5A1790_PG5A1795-6_images" title="59 Центр м/у беседкой и домом" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A1790_PG5A1795-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -1082,6 +1306,10 @@
 				<cube url="panos/_Group_5_-PG5A1790_PG5A1795-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_6_-PG5A1796_PG5A1801-6_images" title="x Беседка" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A1796_PG5A1801-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -1100,6 +1328,10 @@
 				<cube url="panos/_Group_6_-PG5A1796_PG5A1801-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 	<scene name="scene__Group_7_-PG5A1802_PG5A1809-6_images" title="60 Справа от дома СПА" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A1802_PG5A1809-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -1118,6 +1350,10 @@
 				<cube url="panos/_Group_7_-PG5A1802_PG5A1809-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
+			<layer name="text"
+		   style="text_style"
+		   html=""
+	/>
 		</scene>
 
 
