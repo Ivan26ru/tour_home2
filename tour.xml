@@ -116,21 +116,21 @@
 		/>
 	</layer>
 
-<!--	<layer name="info"-->
-<!--		   keep="true"-->
-<!--		   type="image"-->
-<!--		   align="righttop"-->
-<!--		   url="info.png"-->
-<!--		   width="35px"-->
-<!--		   height="35x"-->
-<!--		   x="15px"-->
-<!--		   y="50px"-->
-<!--		   onclick="toggle(layer[text].visible);"-->
-<!--	/>-->
+	<layer name="info"
+		   keep="true"
+		   type="image"
+		   align="righttop"
+		   url="info.png"
+		   width="35px"
+		   height="35x"
+		   x="15px"
+		   y="50px"
+		   onclick="toggle(layer[text].visible);"
+	/>
 
 	<style name="text_style"
 		   keep="false"
-		   visible="true"
+		   visible="false"
 		   type="text"
 		   css="font-size:14px;font-weight:bold;text-align:left;padding:5px;color:#ffffff;"
 		   bg="true"
@@ -150,9 +150,15 @@
 	copy(txt, scene[get(erscena)].title); if(plan_settings.title_spot, showtext(get(txt), STYLE_title_spot); );
 </action>
 
-<!--	<action name="test">-->
-<!--		trace('get(style)');-->
-<!--	</action>-->
+	<events name="onnewpano" keep="true"
+			onnewpano="action_is_text();
+
+			trace('events onowerpano');"
+	/>
+	<action name="action_is_text">
+		if(layer[text].html, set(is_text, "true"); set(layer[info].visible, true); ,  set(is_text, "false"); set(layer[info].visible, false););
+<!--		trace(is_text);-->
+	</action>
 
 	<!--events mobile-->
 	<action name="action_mobile-on" keep="true">
