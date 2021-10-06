@@ -452,7 +452,7 @@
 <!--	/>-->
 	<!--	</scene>-->
 
-	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="16 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="18 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -691,7 +691,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Холл 2 этажа: площадь 77м2, высота 3,9 м. Полы, подоконники мрамор Botticino Classico-Италия. Стеклянное ограждение и лестница  Kenngott - Германия. Освещение: Modular, Ideallux и Argentum с датчикиками движения- Италия. Шахта лифта металл и стекло - Швейцария"
 	/>
 	</scene>
 
@@ -713,11 +713,11 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Холл 2 этажа: площадь 77м2, высота 3,9 м. Полы, подоконники мрамор Botticino Classico-Италия. Стеклянное ограждение и лестница  Kenngott - Германия. Освещение: Modular, Ideallux и Argentum с датчикиками движения- Италия. Шахта лифта металл и стекло - Швейцария"
 	/>
 	</scene>
 
-	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="22 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_35_-PG5A1971_PG5A1976-6_images_fhdr" title="X Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_35_-PG5A1971_PG5A1976-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -735,7 +735,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Холл 2 этажа: площадь 77м2, высота 3,9 м. Полы, подоконники мрамор Botticino Classico-Италия. Стеклянное ограждение и лестница  Kenngott - Германия. Освещение: Modular, Ideallux и Argentum с датчикиками движения- Италия. Шахта лифта металл и стекло - Швейцария"
 	/>
 	</scene>
 
@@ -757,7 +757,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Бильярдная: площадь 54,3 м2, высота 3,1 м. Полы: комбинированные из мрамора Bottichino Classico -слэбов и звукопоглашающей пробки (в зоне бильярда). Мобильные звукоизолирующие стены облицованные деревом из Цейлонского лимона. Мебель: бильярд с подсветкой , настенные панели из дерева Цейлонского лимона, барные стулья Dry, кресла и газетница Casablanca - орех Tressero Bolero - Испания. Кресла, торшер, сервисный столик Giorgetti - Италия. Бар со шкафами, встроенным холодильником,  ледогенератором и подсветкой облицован деревом Цейлонского лимона. Встроенные аквариумы 2,4+2,4 м3 с морской водой и натуральной флорой с рыбами с автомат.подсветкой и системой подготовки и фильтрации воды. Освещение: люстры Bover, Modular, Ideallux- Италия. Видео-аудио система Bang&amp; Olufsen BeoVision 7  32&#34; -Дания. Kaleidescape видео-аудио сервер  K-300- США."
 	/>
 	</scene>
 
@@ -779,7 +779,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Бильярдная: площадь 54,3 м2, высота 3,1 м. Полы: комбинированные из мрамора Bottichino Classico -слэбов и звукопоглашающей пробки (в зоне бильярда). Мобильные звукоизолирующие стены облицованные деревом из Цейлонского лимона. Мебель: бильярд с подсветкой , настенные панели из дерева Цейлонского лимона, барные стулья Dry, кресла и газетница Casablanca - орех Tressero Bolero - Испания. Кресла, торшер, сервисный столик Giorgetti - Италия. Бар со шкафами, встроенным холодильником,  ледогенератором и подсветкой облицован деревом Цейлонского лимона. Встроенные аквариумы 2,4+2,4 м3 с морской водой и натуральной флорой с рыбами с автомат.подсветкой и системой подготовки и фильтрации воды. Освещение: люстры Bover, Modular, Ideallux- Италия. Видео-аудио система Bang&amp; Olufsen BeoVision 7  32&#34; -Дания. Kaleidescape видео-аудио сервер  K-300- США."
 	/>
 	</scene>
 
@@ -801,7 +801,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Ванная 1: площадь 9,9м2, высота 3,4м. Полы: керамогранит Revigre's -Португалия. Стены: плитка Ceramika Bardelli /Tulipani, керамогранит  /Arenato Bege Lap Revigre's- Португалия. Освещение: потолочный светильник Martini- Италия. Сантехника: унитаз, бидэ Starck 3 Duravit, Geberit Tango, раковина, шкаф, зеркало, смеситель Edition Palais Keuco, душевая кабина Marano Hueppe -Германия."
 	/>
 	</scene>
 
@@ -823,7 +823,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня 1: площадь 27,5 м2, высота 3,75м. Полы: доска клен селект Horning - Дания. Мебель: комод, стол, стул, тумба- Ligne Roset-Франция. Шкаф и тумба прикроватная People Pianca, кресло Progetti- Италия. Кровать, шкаф Nolte - Германия. Освещение: люстра, бра Le Porcellane, Ideallux- Италия. Телевизор BeoVision 7 с акустическими системой BeoLab 18 Bang&amp;Olufsen - Дания"
 	/>
 	</scene>
 
@@ -845,7 +845,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Гостиная 2: площадь 78,2 м2, высота 3,7м. Полы: доска клен селект Horning - Дания. Мебель: стол Romeo Creazioni, стулья Panton Classic Chair Classic, стол журнальный Fendi, комод Oris Reflex, диван Natuzzo-Италия, кресло De Seda,  тумба, консоль, комод, витрина Team by Wells -Германия. Стол письменный, столик Ligne Roset-Франция. Освещение: потолочные светильники Modular, Bega- Италия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 8000  Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 1500- США. ."
 	/>
 	</scene>
 
@@ -867,7 +867,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Гостиная 2: площадь 78,2 м2, высота 3,7м. Полы: доска клен селект Horning - Дания. Мебель: стол Romeo Creazioni, стулья Panton Classic Chair Classic, стол журнальный Fendi, комод Oris Reflex, диван Natuzzo-Италия, кресло De Seda,  тумба, консоль, комод, витрина Team by Wells -Германия. Стол письменный, столик Ligne Roset-Франция. Освещение: потолочные светильники Modular, Bega- Италия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 8000  Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 1500- США. ."
 	/>
 	</scene>
 
@@ -889,7 +889,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня 2: площадь 23,2м2, высота 3,6м. Мебель: кровать Flou Relais-Италия. Шкаф и банкетка Interlubke. Прикроватные тумбочки Schonbuch -Германия. Освещение: подвесной светильник, лампы Vibia, Ideallux- Италия. Домашний кинотеатр BeoVission 55 &#34;с акустикой Sonance Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио сервер K 300- США. "
 	/>
 	</scene>
 
@@ -911,7 +911,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Ванная: площадь 20,6м2, высота 3,4м. Полы: керамогранит  Metal Iron Natural Rect. Стены: керамогранит Cromatica Superbranco Pol, плитка  Valentina Elsabeth Revigre's -Португалия. Сантехника: унитаз, биде Starck 2 Duravit с Geberit Tango, раковины, шкафы Oasis Samoa, ванна Hoesch Zero, смесители Axor Terrano, Hansgrohe- Германия. Освещение: споты Modular, Ideallux- Италия. Акустика Sonance Bang&amp;Olufsen- Дания."
 	/>
 	</scene>
 
@@ -933,7 +933,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Гостевой туалет 2: площадь 5,5 м2 ,высота 3,5 м. Полы: мозаика Cottveneto Mosaic Vetro del Piavo Piuma, стены Travertino Note слэбы- Италия. Сантехника: унитаз, писсуар V&amp;B Oblic, Geberit, раковина Oasis Link-o, смеситель Dornbracht MEM- Германия. Освещение светильники Axor Citterio-Италия"
 	/>
 	</scene>
 
@@ -955,7 +955,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Ванная 3: площадь 10 м2, высота 3,4м. Полы: мрамор Crema Valencia слэбы - Италия. Стены Travertino Classico Romano слэбы- Италия. Сантехника: унитаз, биде, столик под раковину, шкафы V&amp;B Century Geberit, смесители, душевая кабина Dornbracht Square Vogue, Hansgrohe Unica &#34;D&#34;. Освещение: бра Flos, потолочный светильник Bega, Ideallux-Италия."
 	/>
 	</scene>
 
@@ -976,7 +976,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня 3: площадь 32,6 м2, высота 3,7 м. Полы: доска клен селект Horning - Дания. Мебель: кровать Angle Flou, комод и тумба Giorgetti, тумбочки прикроватные Nolte, стол Pianca, кресло Georgetti-Италия. Освещение потолочные светильники ITRE, люстра, бра Arizzi, торшер Itallamp-Италия. Домашний кинотеатр BeoVision 55'' Bang&amp;Olufsen - Дания. Keleidescape K 1500 видеоаудио сервер."
 	/>
 	</scene>
 
@@ -998,7 +998,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня-гостиная 4: площадь 50,1 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: кровать Crimea Flou , тумбочка Brill Creazioni, стул Flammetta, кресло Tizzi Creazioni, банкетка Majestic -Италия. Диван, шкаф, журнальный столик, стол и тумбочка Ligne Roset-Франция. Витрина Team by Wellis- Германия. Освещение: люстра Ingo Maurer, бра Catellano&amp;Smith, подвесной и потолочные светильники De Majo, настольная лампа Vibia, Ideallux-Италия. Домашний кинотеатр BeoVision  55&#34;, музыкальный центр  BeoCenter 2, акустическая системв  BeoLab 20  Bang&amp;Olufsen- Дания, Kaleidescape видео-аудио  сервер K-1500- США."
 	/>
 		</scene>
 
@@ -1020,7 +1020,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Ванная 4: площадь 28,2 м2, высота 3,6м. Полы: мозаика Sicis Neoglass. Стены: плитка Arenato Martim Lap, Cromatico Ice Polido Revigre's -Португалия, панно  FLO 06R Sicis - Италия. Сантехника: унитаз, биде, раковина, шкафы Keramag Joop, душ. кабина Koralle Joop, ванна Duravit Starck X, смесители Axor, Hansgrohe, Kludi. Мебель: банкетка  Bella Dormeuse Creazioni-Италия. Освещение: настенный светильник Axo Light, люстра Band Van Egmond -Италия. Акустика Sonance Bang&amp; Olufsen- Дания."
 	/>
 		</scene>
 
@@ -1042,7 +1042,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Гостиная 3: площадь 93м2, высота 3,6 м. Полы: Botticini Classico слэбы. Мебель: столик белое стекло Draenert-Германия. Диваны Villa Pamphili, столики кофейные Fendi-Италия. Кресло массажное Panasonic. Освещение: люстры Adromeda, подсветка Ideallux - Италия, световой потолок RGB -Германия. Домашний кинотеатр BeoVision  55 , акустическая система BeoLab 18 и BeoLab2 Subwoofer Bang&amp;Olufsen- Дания."
 	/>
 		</scene>
 
@@ -1086,7 +1086,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Кабинет переговорная: площадь 56 м2, высота 3,6 м. Полы: доска орех североамериканский Horning- Дания. Стены: панели кожа со металическими вставками. Подоконники Botticino Classico. Мебель: стол письменный, тумбочка, библиотека, комоды EVE-Германия. Стулья, стол Massimo Scolari  Giorgetti, кресло President, диван Tulip, зеркало Emerald Fendi-Италия. Сейф Fichet-Bauche-Франция. Стеклянный шкаф с подсветкой. Освещение: споты Modular, подсветка Ideallux, настенные светильники Lumen Center, люстра Axo Light- Италия. Настольные лампы и торшер Baker- США. Домашний кинотеатр BeoVision 55&#34;, муз.центр BeoSound 4000, акустическая системв  BeoLab 18  Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер  K-1500- США."
 	/>
 	</scene>
 
@@ -1108,11 +1108,11 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня гостиная 5: площадь 56,9 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: диван Domino Corner, стул, банкетка Leather console, тумбочки Bedside tables, кровать Peplo- Fendi, комод  Naio , зеркало Luxor Due-Smania Casa- Италия. Стол журнальный из натурального камня Draenert - Германия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 3 Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 300- США. Освещение: люстра, настольные лампы и торшер Barovier&amp;Toso, светильники Vistosi, подсветка Ideallux- Италия. "
 	/>
 		</scene>
 
-	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="43 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="46 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -1130,7 +1130,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня гостиная 5: площадь 56,9 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: диван Domino Corner, стул, банкетка Leather console, тумбочки Bedside tables, кровать Peplo- Fendi, комод  Naio , зеркало Luxor Due-Smania Casa- Италия. Стол журнальный из натурального камня Draenert - Германия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 3 Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 300- США. Освещение: люстра, настольные лампы и торшер Barovier&amp;Toso, светильники Vistosi, подсветка Ideallux- Италия. "
 	/>
 	</scene>
 
@@ -1152,7 +1152,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Ванная 5: площадь 26,9 м2, высота 3,4 м. Пол: Botticino Classico, Auresina Florita слэбы. Стены: Botticino Classico, Moleanos слэбы, панно Revigres Architecture Temple De Vesta- Италия. Сантехника и мебель: унитаз, биде Nic Design Barca, Geberit Tango. Шкафы Burg Crono 1.0, смесители Hansgrohe, Axor  Massaund- Германия. Ванна гидромассажная Kohler Soek- Германия. Освещение: светильники Targetti облицованы диким камнем Mocca Cream, споты Martini, подсветка ступеней светодиоды. Банкетка Baker- США. Домашний кинотеатр BeoVision 8-32&#34; с акустической системой  Sonance Bang&amp; Olufsen -Дания."
 	/>
 		</scene>
 
@@ -1174,7 +1174,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня -гостиная 6: площадь 53,3м2, высота3,5м. Полы: доска клен селект Horning - Дания. Мебель: кровать Pryncess, банкетка Cleapanra pouf, тумбочки Canova Fendi, диван -Obi Royal Pozzoli, столик  Camelot Onyx Ipe Cavalli, кресло, пуф Creazioni, зеркало Cristopher Guy- Италия. Освещение: потолочные и подвесные светильники Cesendello Fortyny, Ideallux-Италия. Домашний кинотеатр BeoVission 55 &#34;с акустикой Bang&amp; Olufsen -Дания"
 	/>
 		</scene>
 
@@ -1197,7 +1197,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Спальня -гостиная 6: площадь 53,3м2, высота3,5м. Полы: доска клен селект Horning - Дания. Мебель: кровать Pryncess, банкетка Cleapanra pouf, тумбочки Canova Fendi, диван -Obi Royal Pozzoli, столик  Camelot Onyx Ipe Cavalli, кресло, пуф Creazioni, зеркало Cristopher Guy- Италия. Освещение: потолочные и подвесные светильники Cesendello Fortyny, Ideallux-Италия. Домашний кинотеатр BeoVission 55 &#34;с акустикой Bang&amp; Olufsen -Дания"
 	/>
 	</scene>
 
@@ -1220,7 +1220,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Ванная 6: площадь 30,4 м2, высота3,6м. Полы: мрамор Pietra Lessina слэбы-  Италия. Полы: Broccato слэбы-Италия. Стены: Broccato слэбы, колонны оникс Onice Miele, Saturn Orange с подсветкой-Италия. Сантехника: унитаз, биде Nic Design Barca, Geberit Tango- Германия. Шкафы Burg Crono с подсветкой , смесители Dornbracht Lulu, Hansgrohe, Axor Massaund, Empire- Германия. Ванна профессиональная гидромассажная с подсветкой Massour - Франция. Мебель: стекл. тумбочка в душевой Reflex Onis-Германия, банкетка Baker-США. Освещение: бра MML Ampadari, споты Itre- Италия. Акустика Sonance Bang&amp;Olufsen- Дания."
 	/>
 		</scene>
 
@@ -1308,7 +1308,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Кабинет переговорная: площадь 56 м2, высота 3,6 м. Полы: доска орех североамериканский Horning- Дания. Стены: панели кожа со металическими вставками. Подоконники Botticino Classico. Мебель: стол письменный, тумбочка, библиотека, комоды EVE-Германия. Стулья, стол Massimo Scolari  Giorgetti, кресло President, диван Tulip, зеркало Emerald Fendi-Италия. Сейф Fichet-Bauche-Франция. Стеклянный шкаф с подсветкой. Освещение: споты Modular, подсветка Ideallux, настенные светильники Lumen Center, люстра Axo Light- Италия. Настольные лампы и торшер Baker- США. Домашний кинотеатр BeoVision 55&#34;, муз.центр BeoSound 4000, акустическая системв  BeoLab 18  Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер  K-1500- США."
 	/>
 		</scene>
 
@@ -1330,7 +1330,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Беседка: площадь 71,8 м2. Полы: Padang Dark Granite-Италия. Стеклянные колонны с подсветкой. Рулонная штора Coradi Model Ermetica с пультом управления- Италия. Освещение: люстра Vibia, Ideallux -Италия. Мебель: столы, стулья Royal Botania - Бельгия. Акустика Sonance Bang&amp;Olufsen-Дания."
 	/>
 		</scene>
 
@@ -1352,7 +1352,7 @@
 
 			<layer name="text"
 		   style="text_style"
-		   html=""
+		   html="Наружная СПА: площадь 85м2. Полы: плитка и террасная доска Ipe - Дания.Ограждение: столбики сталь и троссы из нерж. Стали. Гидромассажная ванна Jacuzzi 3,1х3,1 м на 6 человек. Имется вход в бассейна, и спуск на территорию участка. Мебель: лежаки, кресла Royal Botania- Бельгия. Раздвижные зонты  Minutti- Италия."
 	/>
 		</scene>
 
