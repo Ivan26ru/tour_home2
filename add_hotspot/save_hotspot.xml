@@ -1,7 +1,7 @@
 
 <krpano>
 
-	<addhs_settings  pin_cod="2019"
+	<addhs_settings  pin_cod=""
 					 sound_close_click="true"
 					 video_close_click="true"
 					 youtube_close_click="true"
@@ -266,7 +266,7 @@
 			  ondown="drag_LinkSM()"
 	/>
 
-	<hotspot  name="hotspot_37" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" zorder="5"
+	<hotspot  name="hotspot_37" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
 			  ath="123.1403" atv="2.5056" width="80" height="prop" edge="center"
 			  install_onclick="15" title="hotspot_37" scene_EL="scene__group_7_-pg5a1802_pg5a1809-6_images" fov_EL="100" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_1_-pg5a1776_pg5a1781-6_images"
 			  onclick="loadscene(scene__group_1_-pg5a1776_pg5a1781-6_images,null,MERGE,BLEND(0.5));"
@@ -287,7 +287,7 @@
 			  ondown="drag_LinkSM()"
 	/>
 
-	<hotspot  name="hotspot_40" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
+	<hotspot  name="hotspot_40" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" zorder="5"
 			  ath="-45.7637" atv="-1.3469" width="80" height="prop" edge="center"
 			  install_onclick="15" title="hotspot_40" scene_EL="scene__group_2_-pg5a1782_pg5a1787-6_images" fov_EL="100" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_0_-pg5a1770_pg5a1775-6_images"
 			  onclick="loadscene(scene__group_0_-pg5a1770_pg5a1775-6_images,null,MERGE,BLEND(0.5));"
@@ -861,14 +861,14 @@
 			  ondown="drag_LinkSM()"
 	/>
 
-	<hotspot  name="hotspot_122" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
+	<hotspot  name="hotspot_122" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" zorder="5"
 			  ath="-23.8694" atv="-0.5028" width="80" height="prop" edge="center"
 			  install_onclick="15" title="hotspot_122" scene_EL="scene__group_2_-pg5a1782_pg5a1787-6_images" fov_EL="113.61" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_7_-pg5a2121_pg5a2126-6_images"
 			  onclick="loadscene(scene__group_7_-pg5a2121_pg5a2126-6_images,null,MERGE,BLEND(0.5));"
 			  ondown="drag_LinkSM()"
 	/>
 
-	<hotspot  name="hotspot_123" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
+	<hotspot  name="hotspot_123" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" zorder="5"
 			  ath="90.9497" atv="0.8899" width="80" height="prop" edge="center"
 			  install_onclick="15" title="hotspot_123" scene_EL="scene__group_2_-pg5a1782_pg5a1787-6_images" fov_EL="113.61" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_5_-pg5a1790_pg5a1795-6_images"
 			  onclick="loadscene(scene__group_5_-pg5a1790_pg5a1795-6_images,null,MERGE,BLEND(0.5));"
@@ -889,17 +889,31 @@
 			  ondown="drag_LinkSM()"
 	/>
 
-	<hotspot  name="hotspot_126" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" zorder="5"
+	<hotspot  name="hotspot_126" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
 			  ath="89.731" atv="2.8778" width="80" height="prop" edge="center"
 			  install_onclick="15" title="hotspot_126" scene_EL="scene__group_7_-pg5a1802_pg5a1809-6_images" fov_EL="126.08" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_32_-pg5a1953_pg5a1958-6_images_fhdr"
 			  onclick="loadscene(scene__group_32_-pg5a1953_pg5a1958-6_images_fhdr,null,MERGE,BLEND(0.5));"
 			  ondown="drag_LinkSM()"
 	/>
 
-	<hotspot  name="hotspot_127" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" zorder="5"
+	<hotspot  name="hotspot_127" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
 			  ath="14.1128" atv="5.4777" width="80" height="prop" edge="center"
 			  install_onclick="15" title="hotspot_127" scene_EL="scene__group_7_-pg5a1802_pg5a1809-6_images" fov_EL="126.08" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_5_-pg5a1790_pg5a1795-6_images"
 			  onclick="loadscene(scene__group_5_-pg5a1790_pg5a1795-6_images,null,MERGE,BLEND(0.5));"
+			  ondown="drag_LinkSM()"
+	/>
+
+	<hotspot  name="hotspot_128" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
+			  ath="57.4205" atv="-0.9144" width="80" height="prop" edge="center"
+			  install_onclick="5" title="hotspot_128" scene_EL="scene__group_6_-pg5a1796_pg5a1801-6_images" fov_EL="100" enabled2="true" visible2="true" drag_hs="true"
+			  onclick="loadscene(scene__group_2_-pg5a1782_pg5a1787-6_images,null,MERGE,BLEND(0.5));"
+			  ondown="drag_LinkSM()"
+	/>
+
+	<hotspot  name="hotspot_129" style="link_hs_sm" type="image" keep="true" url="%FIRSTXML%/add_hotspot/picture/arrow.png" enabled="false" visible="false" zorder="5"
+			  ath="172.1555" atv="1.7534" width="80" height="prop" edge="center"
+			  install_onclick="15" title="hotspot_129" scene_EL="scene__group_6_-pg5a1796_pg5a1801-6_images" fov_EL="100" enabled2="true" visible2="true" drag_hs="true" hs_linkedscene="scene__group_7_-pg5a1802_pg5a1809-6_images"
+			  onclick="loadscene(scene__group_7_-pg5a1802_pg5a1809-6_images,null,MERGE,BLEND(0.5));"
 			  ondown="drag_LinkSM()"
 	/>
 
