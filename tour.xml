@@ -196,6 +196,28 @@
 
 
 <!--	@todo start scene -->
+	<scene name="scene_______" title="2 Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/______.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/______.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/______.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Гостевой туалет: площадь 5,1м2, высота 3,2 м. Пол и стены Travertino Classico Romano-Италия. Освещение: AXO Light, Itre, Ideallux- Италия. Сантехника: унитаз, писсуар Villeroy&amp;Boch Magnum, Geberit, смесители Kohler, аксессуары Dombracht MEM."
+		/>
+	</scene>
+
 	<scene name="scene__Group_8_-PG5A1818_PG5A1823-6_images" title="3 Главное фойе" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -218,7 +240,28 @@
 	/>
 	</scene>
 
+	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="4 Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Гардеробная №1: площадь 6,7 м2, высота 3,6 м. Мебель: встроенные шкафы для одежды и обуви Misure Emme Millimetrica-Италия, Schmalenbach-Германия, пуф Colombo Stile - Италия. Освещение: люстры Strass Svarovski Nature- Германия. "
+		/>
+	</scene>
 
 	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images_fhdr" title="5 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -239,71 +282,6 @@
 			<layer name="text"
 		   style="text_style"
 		   html="Гостиная №1: площадь 115,3 м2, высота 3,6-7,8 м. Полы: мрамор Botticinio Classico слэбы-Италия. Стеклянные стены с подсветкой-Швейцария Освещение: люстра  Antologia Quartett, бра Oty Light, торшер и настольные лампы Lamp, споты Modular-Италия. Домашний кинотеатр BeoVision 4-103&#34;, BeoSound 9000, акустическая система BeoLab 5 и BeoLab 3 Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер K-1500- США. Караоке система AST 250 с пультом Yamaha. Рояль-бар Larix Ipe Cavalli Visionare с клавиатурой  Yamaha 403. Мебель: Диван De Seda угловой со встроенными шкафами interlubke -Германия, кресла с пуфами Giorgetti, стол журнальный мраморный Ipe Cavalli Visionare, комод Colombo Stile - Италия. Камин Boley 477 -Германия. Витрины Team by Wellis- Германия. "	/>
-	</scene>
-
-	<scene name="scene___________" title="14 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/__________.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/__________.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/__________.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/__________.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Гостиная №1: площадь 115,3 м2, высота 3,6-7,8 м. Полы: мрамор Botticinio Classico слэбы-Италия. Стеклянные стены с подсветкой-Швейцария Освещение: люстра  Antologia Quartett, бра Oty Light, торшер и настольные лампы Lamp, споты Modular-Италия. Домашний кинотеатр BeoVision 4-103&#34;, BeoSound 9000, акустическая система BeoLab 5 и BeoLab 3 Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер K-1500- США. Караоке система AST 250 с пультом Yamaha. Рояль-бар Larix Ipe Cavalli Visionare с клавиатурой  Yamaha 403. Мебель: Диван De Seda угловой со встроенными шкафами interlubke -Германия, кресла с пуфами Giorgetti, стол журнальный мраморный Ipe Cavalli Visionare, комод Colombo Stile - Италия. Камин Boley 477 -Германия. Витрины Team by Wellis- Германия. "	/>
-	</scene>
-
-	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="4 Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Гардеробная №1: площадь 6,7 м2, высота 3,6 м. Мебель: встроенные шкафы для одежды и обуви Misure Emme Millimetrica-Италия, Schmalenbach-Германия, пуф Colombo Stile - Италия. Освещение: люстры Strass Svarovski Nature- Германия. "
-	/>
-	</scene>
-
-	<scene name="scene_______" title="2 Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/______.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/______.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/______.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Гостевой туалет: площадь 5,1м2, высота 3,2 м. Пол и стены Travertino Classico Romano-Италия. Освещение: AXO Light, Itre, Ideallux- Италия. Сантехника: унитаз, писсуар Villeroy&amp;Boch Magnum, Geberit, смесители Kohler, аксессуары Dombracht MEM."
-	/>
 	</scene>
 
 	<scene name="scene__Group_21_-PG5A1876_PG5A1882-6_images_fhdr" title="6 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_21_-PG5A1876_PG5A1882-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -328,28 +306,6 @@
 	/>
 	</scene>
 
-	<scene name="scene__Group_22_-PG5A1883_PG5A1888-6_images_fhdr" title="12 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html=""
-	/>
-	</scene>
-
 	<scene name="scene__Group_23_-PG5A1889_PG5A1894-6_images" title="7 Рабочая кухня" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_23_-PG5A1889_PG5A1894-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -366,10 +322,10 @@
 			<cube url="panos/_Group_23_-PG5A1889_PG5A1894-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Рабочая кухня: площадь 16,7 м2, высота потолков 3,6 м. Полы: Tagina Fucina Grigio Fumo, стены и фартук: мрамор Pietra Antiqua, Piastrelle in Ceramica -Италия. Освещение: люстра VIBIA -Испания, профиль Ideallux-Италия. Мебель: кухня, шкафы Poggenpohl GA глянец, кухонная техника Miele -Германия, столешница Azul Aran Granite- Италия. Стол круглый со стульями из груши Ligne Roset - Франция. Кухня совмещена с кладовой продуктов с отдельным входом,  холодильниками Miele, комодом Ligne Roset-Франция и стелажами для посуды и продуктов. Сантехника: смеситель Hansgrohe- Германия."
-	/>
+		<layer name="text"
+			   style="text_style"
+			   html="Рабочая кухня: площадь 16,7 м2, высота потолков 3,6 м. Полы: Tagina Fucina Grigio Fumo, стены и фартук: мрамор Pietra Antiqua, Piastrelle in Ceramica -Италия. Освещение: люстра VIBIA -Испания, профиль Ideallux-Италия. Мебель: кухня, шкафы Poggenpohl GA глянец, кухонная техника Miele -Германия, столешница Azul Aran Granite- Италия. Стол круглый со стульями из груши Ligne Roset - Франция. Кухня совмещена с кладовой продуктов с отдельным входом,  холодильниками Miele, комодом Ligne Roset-Франция и стелажами для посуды и продуктов. Сантехника: смеситель Hansgrohe- Германия."
+		/>
 	</scene>
 
 	<scene name="scene__Group_7_-PG5A2121_PG5A2126-6_images" title="11 Гараж" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_7_-PG5A2121_PG5A2126-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -394,6 +350,72 @@
 	/>
 	</scene>
 
+	<scene name="scene__Group_22_-PG5A1883_PG5A1888-6_images_fhdr" title="12 Столовая" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_22_-PG5A1883_PG5A1888-6_images_fhdr.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html=""
+		/>
+	</scene>
+
+	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="13 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html=""
+		/>
+	</scene>
+
+	<scene name="scene___________" title="14 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/__________.tiles/thumb.jpg" lat="" lng="" heading="">
+
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/__________.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/__________.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/__________.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Гостиная №1: площадь 115,3 м2, высота 3,6-7,8 м. Полы: мрамор Botticinio Classico слэбы-Италия. Стеклянные стены с подсветкой-Швейцария Освещение: люстра  Antologia Quartett, бра Oty Light, торшер и настольные лампы Lamp, споты Modular-Италия. Домашний кинотеатр BeoVision 4-103&#34;, BeoSound 9000, акустическая система BeoLab 5 и BeoLab 3 Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер K-1500- США. Караоке система AST 250 с пультом Yamaha. Рояль-бар Larix Ipe Cavalli Visionare с клавиатурой  Yamaha 403. Мебель: Диван De Seda угловой со встроенными шкафами interlubke -Германия, кресла с пуфами Giorgetti, стол журнальный мраморный Ipe Cavalli Visionare, комод Colombo Stile - Италия. Камин Boley 477 -Германия. Витрины Team by Wellis- Германия. "	/>
+	</scene>
+
 	<scene name="scene__Group_24_-PG5A1895_PG5A1900-6_images_fhdr" title="15 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_24_-PG5A1895_PG5A1900-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -414,6 +436,50 @@
 		   style="text_style"
 		   html="Бассейн: площадь 40,6 м2, высота 4,0 м. Потолок комбинированный с натяжным для эффекта отражения. Полы с подогревом: на плитке сборный пол из термоясеня, дорожка-ручей из мозаики NeoGlass 242 Sicis. Стеклянные стены и перегородки со смежными помещениями гостинной и тренажерным залом. Стены и колонны облицованы Travertino Noce - Италия. Чаша бассейна с постоянным уровнем воды и подсветкой, длинной 18 м, глубиной 1,5м. с площадками и сиденьями для отдыха. Встроены атракционы "
 	/>
+	</scene>
+
+	<scene name="scene__Group_10_-PG5A1830_PG5A1835-6_images" title="16 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Терасса 1: площадь 98,6 м2. Полы: Padang Dark Granite- Италия. Стол Tabula Labrador Blue Perl Granite Draenert, стулья Rolf Benz- Германия. Диван, кресла, пуф, столик Manutti - Италия. Стол круглый Royal Botania- Бельгия. Газовые обогреватели- камин Ballu-Bogh. Видео-аудио система Sonance Bang&amp;Olufsen- Дания, Samsung -Корея. Освещение: потолочные светильники и прожектора Wewer Ducre, напольные Ghidini-Италия."
+		/>
+	</scene>
+
+	<scene name="scene__Group_26_-PG5A1915_PG5A1920-6_images" title="17 Тренажерный зал" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Тренажерный зал: площадь 23,3 м2 , высота 3,8 м. Пол со спортивным покрытием. Тренажеры: беговая дорожка GFX , комбинированный 4-х функциональный тренажер, трежеры для преса Precor- США. Кулер для воды. Видео-аудио система Bang&amp; Olufsen BeoVision 7-32&#34; - Дания. Kaleidescape видео-аудио сервер K-300- США. Жалюзи приводные деревянные из рамина, HunterDouglas - Голандия. Освещение: профиль Ideallux-Италия."
+		/>
 	</scene>
 
 	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="18 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -548,72 +614,6 @@
 	/>
 	</scene>
 
-	<scene name="scene__Group_26_-PG5A1915_PG5A1920-6_images" title="17 Тренажерный зал" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_26_-PG5A1915_PG5A1920-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Тренажерный зал: площадь 23,3 м2 , высота 3,8 м. Пол со спортивным покрытием. Тренажеры: беговая дорожка GFX , комбинированный 4-х функциональный тренажер, трежеры для преса Precor- США. Кулер для воды. Видео-аудио система Bang&amp; Olufsen BeoVision 7-32&#34; - Дания. Kaleidescape видео-аудио сервер K-300- США. Жалюзи приводные деревянные из рамина, HunterDouglas - Голандия. Освещение: профиль Ideallux-Италия."
-	/>
-	</scene>
-
-	<scene name="scene__Group_10_-PG5A1830_PG5A1835-6_images" title="16 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_10_-PG5A1830_PG5A1835-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Терасса 1: площадь 98,6 м2. Полы: Padang Dark Granite- Италия. Стол Tabula Labrador Blue Perl Granite Draenert, стулья Rolf Benz- Германия. Диван, кресла, пуф, столик Manutti - Италия. Стол круглый Royal Botania- Бельгия. Газовые обогреватели- камин Ballu-Bogh. Видео-аудио система Sonance Bang&amp;Olufsen- Дания, Samsung -Корея. Освещение: потолочные светильники и прожектора Wewer Ducre, напольные Ghidini-Италия."
-	/>
-	</scene>
-
-	<scene name="scene__Group_9_-PG5A1824_PG5A1829-6_images" title="13 Терраса-балкон 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_9_-PG5A1824_PG5A1829-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html=""
-	/>
-	</scene>
-
 	<scene name="scene__Group_33_-PG5A1959_PG5A1964-6_images_fhdr" title="24 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -702,6 +702,28 @@
 	/>
 	</scene>
 
+	<scene name="scene__Group_39_-PG5A1991_PG5A1996-6_images" title="27 Гостевой туалет 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Гостевой туалет 2: площадь 5,5 м2 ,высота 3,5 м. Полы: мозаика Cottveneto Mosaic Vetro del Piavo Piuma, стены Travertino Note слэбы- Италия. Сантехника: унитаз, писсуар V&amp;B Oblic, Geberit, раковина Oasis Link-o, смеситель Dornbracht MEM- Германия. Освещение светильники Axor Citterio-Италия"
+		/>
+	</scene>
+
 	<scene name="scene__Group_41_-PG5A2003_PG5A2008-6_images" title="28 Бильярдная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_41_-PG5A2003_PG5A2008-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -724,50 +746,6 @@
 	/>
 	</scene>
 
-	<scene name="scene__Group_37_-PG5A1979_PG5A1984-6_images" title="35 Ванная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Ванная 1: площадь 9,9м2, высота 3,4м. Полы: керамогранит Revigre's -Португалия. Стены: плитка Ceramika Bardelli /Tulipani, керамогранит  /Arenato Bege Lap Revigre's- Португалия. Освещение: потолочный светильник Martini- Италия. Сантехника: унитаз, бидэ Starck 3 Duravit, Geberit Tango, раковина, шкаф, зеркало, смеситель Edition Palais Keuco, душевая кабина Marano Hueppe -Германия."
-	/>
-	</scene>
-
-	<scene name="scene__Group_38_-PG5A1985_PG5A1990-6_images" title="34 Спальня 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-		
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Спальня 1: площадь 27,5 м2, высота 3,75м. Полы: доска клен селект Horning - Дания. Мебель: комод, стол, стул, тумба- Ligne Roset-Франция. Шкаф и тумба прикроватная People Pianca, кресло Progetti- Италия. Кровать, шкаф Nolte - Германия. Освещение: люстра, бра Le Porcellane, Ideallux- Италия. Телевизор BeoVision 7 с акустическими системой BeoLab 18 Bang&amp;Olufsen - Дания"
-	/>
-	</scene>
-
 	<scene name="scene__Group_42_-PG5A2009_PG5A2014-6_images" title="29 Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -784,10 +762,10 @@
 			<cube url="panos/_Group_42_-PG5A2009_PG5A2014-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Гостиная 2: площадь 78,2 м2, высота 3,7м. Полы: доска клен селект Horning - Дания. Мебель: стол Romeo Creazioni, стулья Panton Classic Chair Classic, стол журнальный Fendi, комод Oris Reflex, диван Natuzzo-Италия, кресло De Seda,  тумба, консоль, комод, витрина Team by Wells -Германия. Стол письменный, столик Ligne Roset-Франция. Освещение: потолочные светильники Modular, Bega- Италия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 8000  Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 1500- США. ."
-	/>
+		<layer name="text"
+			   style="text_style"
+			   html="Гостиная 2: площадь 78,2 м2, высота 3,7м. Полы: доска клен селект Horning - Дания. Мебель: стол Romeo Creazioni, стулья Panton Classic Chair Classic, стол журнальный Fendi, комод Oris Reflex, диван Natuzzo-Италия, кресло De Seda,  тумба, консоль, комод, витрина Team by Wells -Германия. Стол письменный, столик Ligne Roset-Франция. Освещение: потолочные светильники Modular, Bega- Италия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 8000  Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 1500- США. ."
+		/>
 	</scene>
 
 	<scene name="scene__Group_43_-PG5A2015_PG5A2020-6_images" title="30 Гостиная 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -806,10 +784,10 @@
 			<cube url="panos/_Group_43_-PG5A2015_PG5A2020-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Гостиная 2: площадь 78,2 м2, высота 3,7м. Полы: доска клен селект Horning - Дания. Мебель: стол Romeo Creazioni, стулья Panton Classic Chair Classic, стол журнальный Fendi, комод Oris Reflex, диван Natuzzo-Италия, кресло De Seda,  тумба, консоль, комод, витрина Team by Wells -Германия. Стол письменный, столик Ligne Roset-Франция. Освещение: потолочные светильники Modular, Bega- Италия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 8000  Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 1500- США. ."
-	/>
+		<layer name="text"
+			   style="text_style"
+			   html="Гостиная 2: площадь 78,2 м2, высота 3,7м. Полы: доска клен селект Horning - Дания. Мебель: стол Romeo Creazioni, стулья Panton Classic Chair Classic, стол журнальный Fendi, комод Oris Reflex, диван Natuzzo-Италия, кресло De Seda,  тумба, консоль, комод, витрина Team by Wells -Германия. Стол письменный, столик Ligne Roset-Франция. Освещение: потолочные светильники Modular, Bega- Италия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 8000  Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 1500- США. ."
+		/>
 	</scene>
 
 	<scene name="scene__Group_45_-PG5A2027_PG5A2032-6_images" title="31 Спальня 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_45_-PG5A2027_PG5A2032-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -856,48 +834,92 @@
 	/>
 	</scene>
 
-	<scene name="scene__Group_39_-PG5A1991_PG5A1996-6_images" title="27 Гостевой туалет 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_38_-PG5A1985_PG5A1990-6_images" title="34 Спальня 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/preview.jpg" />
+		<preview url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/preview.jpg" />
 
 		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
 		</image>
 
 		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_39_-PG5A1991_PG5A1996-6_images.tiles/vr/pano_%s.jpg" />
+			<cube url="panos/_Group_38_-PG5A1985_PG5A1990-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Гостевой туалет 2: площадь 5,5 м2 ,высота 3,5 м. Полы: мозаика Cottveneto Mosaic Vetro del Piavo Piuma, стены Travertino Note слэбы- Италия. Сантехника: унитаз, писсуар V&amp;B Oblic, Geberit, раковина Oasis Link-o, смеситель Dornbracht MEM- Германия. Освещение светильники Axor Citterio-Италия"
-	/>
+		<layer name="text"
+			   style="text_style"
+			   html="Спальня 1: площадь 27,5 м2, высота 3,75м. Полы: доска клен селект Horning - Дания. Мебель: комод, стол, стул, тумба- Ligne Roset-Франция. Шкаф и тумба прикроватная People Pianca, кресло Progetti- Италия. Кровать, шкаф Nolte - Германия. Освещение: люстра, бра Le Porcellane, Ideallux- Италия. Телевизор BeoVision 7 с акустическими системой BeoLab 18 Bang&amp;Olufsen - Дания"
+		/>
 	</scene>
 
-	<scene name="scene__Group_49_-PG5A2052_PG5A2057-6_images" title="40 Ванная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_37_-PG5A1979_PG5A1984-6_images" title="35 Ванная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/preview.jpg" />
+		<preview url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/preview.jpg" />
 
 		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
 		</image>
 
 		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/vr/pano_%s.jpg" />
+			<cube url="panos/_Group_37_-PG5A1979_PG5A1984-6_images.tiles/vr/pano_%s.jpg" />
 		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Ванная 3: площадь 10 м2, высота 3,4м. Полы: мрамор Crema Valencia слэбы - Италия. Стены Travertino Classico Romano слэбы- Италия. Сантехника: унитаз, биде, столик под раковину, шкафы V&amp;B Century Geberit, смесители, душевая кабина Dornbracht Square Vogue, Hansgrohe Unica &#34;D&#34;. Освещение: бра Flos, потолочный светильник Bega, Ideallux-Италия."
-	/>
+		<layer name="text"
+			   style="text_style"
+			   html="Ванная 1: площадь 9,9м2, высота 3,4м. Полы: керамогранит Revigre's -Португалия. Стены: плитка Ceramika Bardelli /Tulipani, керамогранит  /Arenato Bege Lap Revigre's- Португалия. Освещение: потолочный светильник Martini- Италия. Сантехника: унитаз, бидэ Starck 3 Duravit, Geberit Tango, раковина, шкаф, зеркало, смеситель Edition Palais Keuco, душевая кабина Marano Hueppe -Германия."
+		/>
+	</scene>
+
+	<scene name="scene__Group_46_-PG5A2034_PG5A2039-6_images" title="36 Спальня-гостиная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Спальня-гостиная 4: площадь 50,1 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: кровать Crimea Flou , тумбочка Brill Creazioni, стул Flammetta, кресло Tizzi Creazioni, банкетка Majestic -Италия. Диван, шкаф, журнальный столик, стол и тумбочка Ligne Roset-Франция. Витрина Team by Wellis- Германия. Освещение: люстра Ingo Maurer, бра Catellano&amp;Smith, подвесной и потолочные светильники De Majo, настольная лампа Vibia, Ideallux-Италия. Домашний кинотеатр BeoVision  55&#34;, музыкальный центр  BeoCenter 2, акустическая системв  BeoLab 20  Bang&amp;Olufsen- Дания, Kaleidescape видео-аудио  сервер K-1500- США."
+		/>
+	</scene>
+
+	<scene name="scene__Group_47_-PG5A2040_PG5A2045-6_images" title="37 Ванная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Ванная 4: площадь 28,2 м2, высота 3,6м. Полы: мозаика Sicis Neoglass. Стены: плитка Arenato Martim Lap, Cromatico Ice Polido Revigre's -Португалия, панно  FLO 06R Sicis - Италия. Сантехника: унитаз, биде, раковина, шкафы Keramag Joop, душ. кабина Koralle Joop, ванна Duravit Starck X, смесители Axor, Hansgrohe, Kludi. Мебель: банкетка  Bella Dormeuse Creazioni-Италия. Освещение: настенный светильник Axo Light, люстра Band Van Egmond -Италия. Акустика Sonance Bang&amp; Olufsen- Дания."
+		/>
 	</scene>
 
 	<scene name="scene__Group_48_-PG5A2046_PG5A2051-6_images" title="39 Спальня 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_48_-PG5A2046_PG5A2051-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -921,49 +943,27 @@
 	/>
 	</scene>
 
-	<scene name="scene__Group_46_-PG5A2034_PG5A2039-6_images" title="36 Спальня-гостиная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene__Group_49_-PG5A2052_PG5A2057-6_images" title="40 Ванная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
-			<control bouncinglimits="calc:image.cube ? true : false" />
+		<control bouncinglimits="calc:image.cube ? true : false" />
 
-			<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-			<preview url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/preview.jpg" />
+		<preview url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/preview.jpg" />
 
-			<image if="!(webvr.isenabled OR device.mobilevr)">
-				<cube url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-			</image>
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
 
-			<image if="webvr.isenabled OR device.mobilevr">
-				<cube url="panos/_Group_46_-PG5A2034_PG5A2039-6_images.tiles/vr/pano_%s.jpg" />
-			</image>
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_49_-PG5A2052_PG5A2057-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Спальня-гостиная 4: площадь 50,1 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: кровать Crimea Flou , тумбочка Brill Creazioni, стул Flammetta, кресло Tizzi Creazioni, банкетка Majestic -Италия. Диван, шкаф, журнальный столик, стол и тумбочка Ligne Roset-Франция. Витрина Team by Wellis- Германия. Освещение: люстра Ingo Maurer, бра Catellano&amp;Smith, подвесной и потолочные светильники De Majo, настольная лампа Vibia, Ideallux-Италия. Домашний кинотеатр BeoVision  55&#34;, музыкальный центр  BeoCenter 2, акустическая системв  BeoLab 20  Bang&amp;Olufsen- Дания, Kaleidescape видео-аудио  сервер K-1500- США."
-	/>
-		</scene>
-
-	<scene name="scene__Group_47_-PG5A2040_PG5A2045-6_images" title="37 Ванная 4" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-			<control bouncinglimits="calc:image.cube ? true : false" />
-
-			<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-			<preview url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/preview.jpg" />
-
-			<image if="!(webvr.isenabled OR device.mobilevr)">
-				<cube url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-			</image>
-
-			<image if="webvr.isenabled OR device.mobilevr">
-				<cube url="panos/_Group_47_-PG5A2040_PG5A2045-6_images.tiles/vr/pano_%s.jpg" />
-			</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Ванная 4: площадь 28,2 м2, высота 3,6м. Полы: мозаика Sicis Neoglass. Стены: плитка Arenato Martim Lap, Cromatico Ice Polido Revigre's -Португалия, панно  FLO 06R Sicis - Италия. Сантехника: унитаз, биде, раковина, шкафы Keramag Joop, душ. кабина Koralle Joop, ванна Duravit Starck X, смесители Axor, Hansgrohe, Kludi. Мебель: банкетка  Bella Dormeuse Creazioni-Италия. Освещение: настенный светильник Axo Light, люстра Band Van Egmond -Италия. Акустика Sonance Bang&amp; Olufsen- Дания."
-	/>
-		</scene>
+		<layer name="text"
+			   style="text_style"
+			   html="Ванная 3: площадь 10 м2, высота 3,4м. Полы: мрамор Crema Valencia слэбы - Италия. Стены Travertino Classico Romano слэбы- Италия. Сантехника: унитаз, биде, столик под раковину, шкафы V&amp;B Century Geberit, смесители, душевая кабина Dornbracht Square Vogue, Hansgrohe Unica &#34;D&#34;. Освещение: бра Flos, потолочный светильник Bega, Ideallux-Италия."
+		/>
+	</scene>
 
 	<scene name="scene__Group_50_-PG5A2059_PG5A2064-6_images" title="42 Гостинная 3" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_50_-PG5A2059_PG5A2064-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -987,6 +987,94 @@
 	/>
 		</scene>
 
+	<scene name="scene__Group_4_-PG5A2100_PG5A2105-6_images" title="44 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Спальня гостиная 5: площадь 56,9 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: диван Domino Corner, стул, банкетка Leather console, тумбочки Bedside tables, кровать Peplo- Fendi, комод  Naio , зеркало Luxor Due-Smania Casa- Италия. Стол журнальный из натурального камня Draenert - Германия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 3 Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 300- США. Освещение: люстра, настольные лампы и торшер Barovier&amp;Toso, светильники Vistosi, подсветка Ideallux- Италия. "
+		/>
+	</scene>
+
+	<scene name="scene__Group_6_-PG5A2115_PG5A2120-6_images" title="45 Ванная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Ванная 5: площадь 26,9 м2, высота 3,4 м. Пол: Botticino Classico, Auresina Florita слэбы. Стены: Botticino Classico, Moleanos слэбы, панно Revigres Architecture Temple De Vesta- Италия. Сантехника и мебель: унитаз, биде Nic Design Barca, Geberit Tango. Шкафы Burg Crono 1.0, смесители Hansgrohe, Axor  Massaund- Германия. Ванна гидромассажная Kohler Soek- Германия. Освещение: светильники Targetti облицованы диким камнем Mocca Cream, споты Martini, подсветка ступеней светодиоды. Банкетка Baker- США. Домашний кинотеатр BeoVision 8-32&#34; с акустической системой  Sonance Bang&amp; Olufsen -Дания."
+		/>
+	</scene>
+
+	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="46 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Спальня гостиная 5: площадь 56,9 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: диван Domino Corner, стул, банкетка Leather console, тумбочки Bedside tables, кровать Peplo- Fendi, комод  Naio , зеркало Luxor Due-Smania Casa- Италия. Стол журнальный из натурального камня Draenert - Германия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 3 Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 300- США. Освещение: люстра, настольные лампы и торшер Barovier&amp;Toso, светильники Vistosi, подсветка Ideallux- Италия. "
+		/>
+	</scene>
+
+	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="49 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Кабинет переговорная: площадь 56 м2, высота 3,6 м. Полы: доска орех североамериканский Horning- Дания. Стены: панели кожа со металическими вставками. Подоконники Botticino Classico. Мебель: стол письменный, тумбочка, библиотека, комоды EVE-Германия. Стулья, стол Massimo Scolari  Giorgetti, кресло President, диван Tulip, зеркало Emerald Fendi-Италия. Сейф Fichet-Bauche-Франция. Стеклянный шкаф с подсветкой. Освещение: споты Modular, подсветка Ideallux, настенные светильники Lumen Center, люстра Axo Light- Италия. Настольные лампы и торшер Baker- США. Домашний кинотеатр BeoVision 55&#34;, муз.центр BeoSound 4000, акустическая системв  BeoLab 18  Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер  K-1500- США."
+		/>
+	</scene>
+
 	<scene name="scene__Group_2_-PG5A2087__R1CKTAI-6_images" title="50 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_2_-PG5A2087__R1CKTAI-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
@@ -1009,93 +1097,27 @@
 	/>
 		</scene>
 
-	<scene name="scene__Group_3_-PG5A2094_PG5A2099-6_images" title="49 Кабинет-переговорная" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_1" title="51 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
-		<preview url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/preview.jpg" />
+		<preview url="panos/1.tiles/preview.jpg" />
 
 		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+			<cube url="panos/1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
 		</image>
 
 		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_3_-PG5A2094_PG5A2099-6_images.tiles/vr/pano_%s.jpg" />
+			<cube url="panos/1.tiles/vr/pano_%s.jpg" />
 		</image>
 
-			<layer name="text"
-		   style="text_style"
-		   html="Кабинет переговорная: площадь 56 м2, высота 3,6 м. Полы: доска орех североамериканский Horning- Дания. Стены: панели кожа со металическими вставками. Подоконники Botticino Classico. Мебель: стол письменный, тумбочка, библиотека, комоды EVE-Германия. Стулья, стол Massimo Scolari  Giorgetti, кресло President, диван Tulip, зеркало Emerald Fendi-Италия. Сейф Fichet-Bauche-Франция. Стеклянный шкаф с подсветкой. Освещение: споты Modular, подсветка Ideallux, настенные светильники Lumen Center, люстра Axo Light- Италия. Настольные лампы и торшер Baker- США. Домашний кинотеатр BeoVision 55&#34;, муз.центр BeoSound 4000, акустическая системв  BeoLab 18  Bang&amp;Olufsen- Дания. Kaleidescape видео-аудио сервер  K-1500- США."
-	/>
+		<layer name="text"
+			   style="text_style"
+			   html="Спальня -гостиная 6: площадь 53,3м2, высота3,5м. Полы: доска клен селект Horning - Дания. Мебель: кровать Pryncess, банкетка Cleapanra pouf, тумбочки Canova Fendi, диван -Obi Royal Pozzoli, столик  Camelot Onyx Ipe Cavalli, кресло, пуф Creazioni, зеркало Cristopher Guy- Италия. Освещение: потолочные и подвесные светильники Cesendello Fortyny, Ideallux-Италия. Домашний кинотеатр BeoVission 55 &#34;с акустикой Bang&amp; Olufsen -Дания"
+		/>
 	</scene>
-
-	<scene name="scene__Group_4_-PG5A2100_PG5A2105-6_images" title="44 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-			<control bouncinglimits="calc:image.cube ? true : false" />
-
-			<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-			<preview url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/preview.jpg" />
-
-			<image if="!(webvr.isenabled OR device.mobilevr)">
-				<cube url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-			</image>
-
-			<image if="webvr.isenabled OR device.mobilevr">
-				<cube url="panos/_Group_4_-PG5A2100_PG5A2105-6_images.tiles/vr/pano_%s.jpg" />
-			</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Спальня гостиная 5: площадь 56,9 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: диван Domino Corner, стул, банкетка Leather console, тумбочки Bedside tables, кровать Peplo- Fendi, комод  Naio , зеркало Luxor Due-Smania Casa- Италия. Стол журнальный из натурального камня Draenert - Германия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 3 Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 300- США. Освещение: люстра, настольные лампы и торшер Barovier&amp;Toso, светильники Vistosi, подсветка Ideallux- Италия. "
-	/>
-		</scene>
-
-	<scene name="scene__Group_5_-PG5A2107_PG5A2112-6_images" title="46 Спальня-гостиная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_5_-PG5A2107_PG5A2112-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Спальня гостиная 5: площадь 56,9 м2, высота 3,6м. Полы: доска клен селект Horning - Дания. Мебель: диван Domino Corner, стул, банкетка Leather console, тумбочки Bedside tables, кровать Peplo- Fendi, комод  Naio , зеркало Luxor Due-Smania Casa- Италия. Стол журнальный из натурального камня Draenert - Германия. Домашний кинотеатр BeoVission 55 &#34; с акустикой BeoLab 3 Bang&amp; Olufsen -Дания. Kaleidescape видео-аудио  сервер  K 300- США. Освещение: люстра, настольные лампы и торшер Barovier&amp;Toso, светильники Vistosi, подсветка Ideallux- Италия. "
-	/>
-	</scene>
-
-	<scene name="scene__Group_6_-PG5A2115_PG5A2120-6_images" title="45 Ванная 5" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-			<control bouncinglimits="calc:image.cube ? true : false" />
-
-			<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-			<preview url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/preview.jpg" />
-
-			<image if="!(webvr.isenabled OR device.mobilevr)">
-				<cube url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-			</image>
-
-			<image if="webvr.isenabled OR device.mobilevr">
-				<cube url="panos/_Group_6_-PG5A2115_PG5A2120-6_images.tiles/vr/pano_%s.jpg" />
-			</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Ванная 5: площадь 26,9 м2, высота 3,4 м. Пол: Botticino Classico, Auresina Florita слэбы. Стены: Botticino Classico, Moleanos слэбы, панно Revigres Architecture Temple De Vesta- Италия. Сантехника и мебель: унитаз, биде Nic Design Barca, Geberit Tango. Шкафы Burg Crono 1.0, смесители Hansgrohe, Axor  Massaund- Германия. Ванна гидромассажная Kohler Soek- Германия. Освещение: светильники Targetti облицованы диким камнем Mocca Cream, споты Martini, подсветка ступеней светодиоды. Банкетка Baker- США. Домашний кинотеатр BeoVision 8-32&#34; с акустической системой  Sonance Bang&amp; Olufsen -Дания."
-	/>
-		</scene>
 
 	<scene name="scene__Group_1_-PG5A2077_PG5A2082-6_images" title="52 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A2077_PG5A2082-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -1119,28 +1141,6 @@
 	/>
 		</scene>
 
-	<scene name="scene_1" title="51 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/1.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/1.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/1.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Спальня -гостиная 6: площадь 53,3м2, высота3,5м. Полы: доска клен селект Horning - Дания. Мебель: кровать Pryncess, банкетка Cleapanra pouf, тумбочки Canova Fendi, диван -Obi Royal Pozzoli, столик  Camelot Onyx Ipe Cavalli, кресло, пуф Creazioni, зеркало Cristopher Guy- Италия. Освещение: потолочные и подвесные светильники Cesendello Fortyny, Ideallux-Италия. Домашний кинотеатр BeoVission 55 &#34;с акустикой Bang&amp; Olufsen -Дания"
-	/>
-	</scene>
-
 	<scene name="scene__Group_0_-PG5A2071_PG5A2076-6_images" title="55 Ванная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A2071_PG5A2076-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
@@ -1163,6 +1163,28 @@
 	/>
 		</scene>
 
+	<scene name="scene__Group_1_-PG5A1776_PG5A1781-6_images" title="56 Главный вход" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html=""
+		/>
+	</scene>
+
 	<scene name="scene__Group_0_-PG5A1770_PG5A1775-6_images" title="57 Слева от гаража" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A1770_PG5A1775-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
 			<control bouncinglimits="calc:image.cube ? true : false" />
@@ -1177,28 +1199,6 @@
 
 			<image if="webvr.isenabled OR device.mobilevr">
 				<cube url="panos/_Group_0_-PG5A1770_PG5A1775-6_images.tiles/vr/pano_%s.jpg" />
-			</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html=""
-	/>
-		</scene>
-
-	<scene name="scene__Group_1_-PG5A1776_PG5A1781-6_images" title="56 Главный вход" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-			<control bouncinglimits="calc:image.cube ? true : false" />
-
-			<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-			<preview url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/preview.jpg" />
-
-			<image if="!(webvr.isenabled OR device.mobilevr)">
-				<cube url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />
-			</image>
-
-			<image if="webvr.isenabled OR device.mobilevr">
-				<cube url="panos/_Group_1_-PG5A1776_PG5A1781-6_images.tiles/vr/pano_%s.jpg" />
 			</image>
 
 			<layer name="text"
@@ -1294,7 +1294,6 @@
 		   html="Наружная СПА: площадь 85м2. Полы: плитка и террасная доска Ipe - Дания.Ограждение: столбики сталь и троссы из нерж. Стали. Гидромассажная ванна Jacuzzi 3,1х3,1 м на 6 человек. Имется вход в бассейна, и спуск на территорию участка. Мебель: лежаки, кресла Royal Botania- Бельгия. Раздвижные зонты  Minutti- Италия."
 	/>
 		</scene>
-
 
 <!--	no use -->
 	<!--	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
