@@ -218,27 +218,7 @@
 	/>
 	</scene>
 
-<!--	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
 
-<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
-
-<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
-
-<!--		<preview url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/preview.jpg" />-->
-
-<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
-<!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />-->
-<!--		</image>-->
-
-<!--		<image if="webvr.isenabled OR device.mobilevr">-->
-<!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/vr/pano_%s.jpg" />-->
-<!--		</image>-->
-
-<!--		<layer name="text"-->
-<!--		   style="text_style"-->
-<!--		   html=""-->
-<!--	/>-->
-	<!--	</scene>-->
 
 	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images_fhdr" title="5 Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -436,28 +416,6 @@
 	/>
 	</scene>
 
-<!--	<scene name="scene__Group_25_-PG5A1901_PG5A1906-6_images" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
-
-<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
-
-<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
-
-<!--		<preview url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/preview.jpg" />-->
-
-<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
-<!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,4864" />-->
-<!--		</image>-->
-
-<!--		<image if="webvr.isenabled OR device.mobilevr">-->
-<!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/vr/pano_%s.jpg" />-->
-<!--		</image>-->
-
-<!--		<layer name="text"-->
-<!--		   style="text_style"-->
-<!--		   html=""-->
-<!--	/>-->
-	<!--	</scene>-->
-
 	<scene name="scene__Group_32_-PG5A1953_PG5A1958-6_images_fhdr" title="18 Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_32_-PG5A1953_PG5A1958-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -479,7 +437,6 @@
 		   html="Бассейн: площадь 40,6 м2, высота 4,0 м. Потолок комбинированный с натяжным для эффекта отражения. Полы с подогревом: на плитке сборный пол из термоясеня, дорожка-ручей из мозаики NeoGlass 242 Sicis. Стеклянные стены и перегородки со смежными помещениями гостинной и тренажерным залом. Стены и колонны облицованы Travertino Noce - Италия. Чаша бассейна с постоянным уровнем воды и подсветкой, длинной 18 м, глубиной 1,5м. с площадками и сиденьями для отдыха. Встроены атракционы &#34;гейзер&#34; и &#34;противоток&#34;. Чаша облицована мозаикой NeoGlass 242 с мозаичными панно MSM/Irridium Sicis-Италия. Озоновая водоподготовка OSPA (без хлорирования) -Германия с дистанционным контролем и управлением качеством и температурой воды. Гидромассажная ванна на 6 человек Jacizzi - Италия с отдельным дистанционным управлением подогревом воды с подсветкой. Акустическая система Sonance Bang &amp; Olufsen -Дания. Освещение: парусные светильники B-Lux- Испания, бра и подвесные светильники Vistosi- Италия. Имеются выходы на террасу 1 этажа и наружную СПА с гидромассажной ванной.  Имеется специальная автоматическая вентиляционная система с осушкой воздуха CDP-35 Breazart. Мебель: столы металл и стекло, лежаки, стулья и кресла из тика Royal Botania- Бельгия. Жалюзи приводные деревянные из рамина HunterDouglas - Голландия."
 	/>
 	</scene>
-
 
 	<scene name="scene__Group_30_-PG5A1940_PG5A1945-6_images" title="19 СПА коридор с душем" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_30_-PG5A1940_PG5A1945-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -656,28 +613,6 @@
 		   html=""
 	/>
 	</scene>
-
-	<!--	<scene name="scene_1_fhdr" title="1_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">-->
-		<!--		-->
-		<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
-
-		<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
-
-		<!--		<preview url="panos/1_fhdr.tiles/preview.jpg" />-->
-
-		<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
-		<!--			<cube url="panos/1_fhdr.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1152,2304,4736" />-->
-		<!--		</image>-->
-
-		<!--		<image if="webvr.isenabled OR device.mobilevr">-->
-		<!--			<cube url="panos/1_fhdr.tiles/vr/pano_%s.jpg" />-->
-		<!--		</image>-->
-
-<!--		<layer name="text"-->
-<!--		   style="text_style"-->
-<!--		   html=""-->
-<!--	/>-->
-	<!--	</scene>-->
 
 	<scene name="scene__Group_33_-PG5A1959_PG5A1964-6_images_fhdr" title="24 Холл 2" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_33_-PG5A1959_PG5A1964-6_images_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -1184,7 +1119,6 @@
 	/>
 		</scene>
 
-
 	<scene name="scene_1" title="51 Спальня-гостиная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -1206,7 +1140,6 @@
 		   html="Спальня -гостиная 6: площадь 53,3м2, высота3,5м. Полы: доска клен селект Horning - Дания. Мебель: кровать Pryncess, банкетка Cleapanra pouf, тумбочки Canova Fendi, диван -Obi Royal Pozzoli, столик  Camelot Onyx Ipe Cavalli, кресло, пуф Creazioni, зеркало Cristopher Guy- Италия. Освещение: потолочные и подвесные светильники Cesendello Fortyny, Ideallux-Италия. Домашний кинотеатр BeoVission 55 &#34;с акустикой Bang&amp; Olufsen -Дания"
 	/>
 	</scene>
-
 
 	<scene name="scene__Group_0_-PG5A2071_PG5A2076-6_images" title="55 Ванная 6" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_0_-PG5A2071_PG5A2076-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -1362,5 +1295,72 @@
 	/>
 		</scene>
 
+
+<!--	no use -->
+	<!--	<scene name="scene__Group_15_-PG5A1857_PG5A1862-6_images" title="Гостиная 1 этажа" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
+
+	<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
+
+	<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
+
+	<!--		<preview url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/preview.jpg" />-->
+
+	<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
+	<!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1152,2176,4352" />-->
+	<!--		</image>-->
+
+	<!--		<image if="webvr.isenabled OR device.mobilevr">-->
+	<!--			<cube url="panos/_Group_15_-PG5A1857_PG5A1862-6_images.tiles/vr/pano_%s.jpg" />-->
+	<!--		</image>-->
+
+	<!--		<layer name="text"-->
+	<!--		   style="text_style"-->
+	<!--		   html=""-->
+	<!--	/>-->
+	<!--	</scene>-->
+
+	<!--	<scene name="scene__Group_25_-PG5A1901_PG5A1906-6_images" title="Бассейн" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/thumb.jpg" lat="" lng="" heading="">-->
+
+	<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
+
+	<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
+
+	<!--		<preview url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/preview.jpg" />-->
+
+	<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
+	<!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,4864" />-->
+	<!--		</image>-->
+
+	<!--		<image if="webvr.isenabled OR device.mobilevr">-->
+	<!--			<cube url="panos/_Group_25_-PG5A1901_PG5A1906-6_images.tiles/vr/pano_%s.jpg" />-->
+	<!--		</image>-->
+
+	<!--		<layer name="text"-->
+	<!--		   style="text_style"-->
+	<!--		   html=""-->
+	<!--	/>-->
+	<!--	</scene>-->
+
+	<!--	<scene name="scene_1_fhdr" title="1_fhdr" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/1_fhdr.tiles/thumb.jpg" lat="" lng="" heading="">-->
+	<!--		-->
+	<!--		<control bouncinglimits="calc:image.cube ? true : false" />-->
+
+	<!--		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />-->
+
+	<!--		<preview url="panos/1_fhdr.tiles/preview.jpg" />-->
+
+	<!--		<image if="!(webvr.isenabled OR device.mobilevr)">-->
+	<!--			<cube url="panos/1_fhdr.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1152,2304,4736" />-->
+	<!--		</image>-->
+
+	<!--		<image if="webvr.isenabled OR device.mobilevr">-->
+	<!--			<cube url="panos/1_fhdr.tiles/vr/pano_%s.jpg" />-->
+	<!--		</image>-->
+
+	<!--		<layer name="text"-->
+	<!--		   style="text_style"-->
+	<!--		   html=""-->
+	<!--	/>-->
+	<!--	</scene>-->
 
 </krpano>
