@@ -62,10 +62,10 @@
 			scale="1"
 		/>
 	<!--  Кнопка - показать-спрятать план -->
-	<layer 	name="plan_button"   keep="true" align="righttop"  x="9" y="105"  url="picture/plan_button.png" scale="0.6"  alpha="0.8" zorder="99" rotate="0"
+	<layer 	name="plan_button"   keep="true" align="righttop"  x="15" y="105"  url="picture/plan_button.png" scale="0.6"  alpha="1" zorder="99" rotate="0"
 				onover="set(alpha,1); 
 						if(plan_settings.onhover_button_open_plan, if(layer[container_plan1].enabled,,open_plan()););"  
-				onout="set(alpha,0.8);"
+				onout="set(alpha,1);"
 				onclick="if(layer[container_plan1].enabled,  close_plan(); , open_plan(); );"
 
 		/> 
