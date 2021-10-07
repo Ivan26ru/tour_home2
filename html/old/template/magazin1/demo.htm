@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+
+        <title>The books like gallery</title>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+		<script src="booklet/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="booklet/jquery.booklet.1.1.0.min.js" type="text/javascript"></script>
+        <link href="booklet/jquery.booklet.1.1.0.css" type="text/css" rel="stylesheet" media="screen" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <script src="cufon/cufon-yui.js" type="text/javascript"></script>
+
+
+    </head>
+    <body>
+
+		<div class="book_wrapper">
+			<a id="next_page_button"></a>
+			<a id="prev_page_button"></a>
+			<div id="loading" class="loading">Load the pages ...</div>
+			<div id="mybook" style="display:none;">
+				<div class="b-load">
+
+                <div>
+						<img src="images/01.jpg" alt=""/>
+	            </div>
+
+                <div>
+						<img src="images/02.jpg" alt="" />
+                 </div>
+
+                 <div>
+						<img src="images/03.jpg" alt="" />
+				  </div>
+
+                  <div>
+						<img src="images/04.jpg" alt="" />
+                   </div>
+
+
+                   <div>
+						<img src="images/05.jpg" alt="" />
+                   </div>
+
+
+                    <div>
+						<img src="images/06.jpg" alt="" />
+                    </div>
+
+
+                    <div>
+						<img src="images/07.jpg" alt="" />
+                    </div>
+
+                    <div>
+                    <br /> <br />
+					<p>You can put here any text or images</p>
+                    </div>
+
+                     <div>
+                     <br /> <br />
+                    <p>It's also pssibly to order the color of pages and change the appearance. You can put under the image of the open boock as a background  </p>
+                    </div>
+
+
+                    <div>
+						<img src="images/08.jpg" alt="" />
+                    </div>
+                                  <!-- конец содержимого -->
+			   </div>
+			</div>
+		</div>
+
+
+        <!-- JavaScript -->
+
+        <script type="text/javascript">
+			$(function() {
+				var $mybook 		= $('#mybook');
+				var $bttn_next		= $('#next_page_button');
+				var $bttn_prev		= $('#prev_page_button');
+				var $loading		= $('#loading');
+				var $mybook_images	= $mybook.find('img');
+				var cnt_images		= $mybook_images.length;
+				var loaded			= 0;
+				$mybook_images.each(function(){
+					var $img 	= $(this);
+					var source	= $img.attr('src');
+					$('<img/>').load(function(){
+						++loaded;
+						if(loaded == cnt_images){
+							$loading.hide();
+							$bttn_next.show();
+							$bttn_prev.show();
+							$mybook.show().booklet({
+								name:               null,                            // Name of the booklet, which is displayed in the document header
+								width:              654,                             // Container width
+								height:             450,                             // Container height
+								speed:              600,                             // The speed of the page change
+								direction:          'LTR',                           // The direction of the content organization. LTR (left to right  ), may be also RTL  (right to left)
+								startingPage:       0,                               // The index of the page first to load
+								easing:             'easeInOutQuad',
+								easeIn:             'easeInQuad',
+								easeOut:            'easeOutQuad',
+
+								closed:             true,                            // The closed book means it will be add the empty pages to start and end
+								closedFrontTitle:   null,
+								closedFrontChapter: null,
+								closedBackTitle:    null,
+								closedBackChapter:  null,
+								covers:             false,
+
+								pagePadding:        0,
+								pageNumbers:        false,
+								hovers:             false,
+								overlays:           false,
+								tabs:               false,
+								tabWidth:           0,
+								tabHeight:          0,
+								arrows:             false,
+								cursor:             'pointer',
+
+								hash:               false,
+								keyboard:           true,
+								next:               $bttn_next,
+								prev:               $bttn_prev,
+
+								menu:               null,
+								pageSelector:       false,
+								chapterSelector:    false,
+
+								shadows:            true,
+								shadowTopFwdWidth:  166,                             // The width of the shade for the top animation forward
+								shadowTopBackWidth: 166,                             // The width of the shade for the top animation back
+								shadowBtmWidth:     50,                              // The width of the shade for the bottom
+
+								before:             function(){},
+								after:              function(){}
+							});
+							Cufon.refresh();
+						}
+					}).attr('src',source);
+				});
+				
+			});
+        </script>
+    </body>
+</html>

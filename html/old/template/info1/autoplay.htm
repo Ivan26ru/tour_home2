@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+   	<title>Information</title>
+	<link rel="stylesheet" href="css/style2.css" type="text/css" media="screen" />
+     <script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.timelinr-0.9.4.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	    	$(function(){
+			$().timelinr({
+				autoPlay: 'true',
+				autoPlayDirection: 'forward',
+                autoPlayPause: 6000,
+                startAt: 1
+
+			})
+		});
+
+	</script>
+</head>
+
+<body>
+    <div id="timeline">
+		<ul id="dates">
+			<li><a href="#1" class="pers">Portrait</a> Hall</li>
+			<li><a href="#2" class="pers">Great</a> Hall</li>
+            <li><a href="#3" class="pers">Picture</a> Hall</li>
+			<li><a href="#4" class="pers">White</a> State <span style="font-size: 9pt">Dining-Room</span></li>
+		</ul>
+		<ul id="issues">
+			<li id="1">
+            <img src="photo/1.jpg" style="border: 0" alt="" />
+	 			<h1>The Portrait Hall</h1>
+				<p>The Portrait Hall of the Catherine Palace retained its original decor planned by Rastrelli for two centuries. From early on it was used to display formal depictions of Russian rulers. The interior was completely destroyed during the war and was recreated from photographs and surviving fragments of decor.</p>
+			</li>
+			<li id="2">
+            <img src="photo/2.jpg"  style="border: 0" alt="" />
+				<h1>The Great Hall</h1>
+				<p>The Great Hall or Bright Gallery, as it was called in the eighteenth century, is the largest state room in the palace. It was created to Rastrelli’s design between 1752 and 1756. The stylish hall with a floor area of over 800 square metres was intended as the venue for official receptions and celebrations, banquets, balls and masquerades.</p>
+			</li>
+			<li id="3">
+            <img src="photo/3.jpg" style="border: 0" alt="" />
+				<h1>The Picture Hall</h1>
+				<p>The Picture Hall, a state room of the Great Palace at Tsarskoye Selo (the Catherine Palace) that is situated next to the Amber Room, gets its name from its original and distinctive decor – painted canvases arranged according to the “tapestry” principle was created to Rastrelli’s designs in the 150s. The hall extends across the full width of the building and has a floor area of around 180 square metres.</p>
+			</li>
+			<li id="4">
+            <img src="photo/4.jpg" style="border: 0" alt="" />
+				<h1>The White State Dining-Room</h1>
+				<p>Koporye is a historic village in Russia, located about 100 km (62 mi) to the west of St. Petersburg and 12 km (7.5 mi) south of the Koporye Bay of the Baltic Sea. It contains some of the most impressive medieval ruins in Russia. The first wooden fortress on the coast of the Koporye Bay was built by the Teutonic Knights in 1240, only to be destroyed by Alexander Nevsky the next year. The second fortress was built in stone by Alexander's son Dmitry Alexandrovich in 1280. Enraged by the prince's independence, the Novgorodians razed the fortress two years later.</p>
+			</li>
+
+		</ul>
+		<a href="#" id="next">+</a>
+		<a href="#" id="prev">-</a>
+	</div>
+	
+</body>
+</html>

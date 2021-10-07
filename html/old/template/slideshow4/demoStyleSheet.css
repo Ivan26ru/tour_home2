@@ -1,0 +1,80 @@
+*{padding:0;margin:0;list-style:none;outline:none;}
+body{
+  background:#fff;
+  color: #333
+  font:14px Tahoma, Geneva, sans-serif;
+  }
+
+#slideshowWrapper{
+  position:relative;
+  width:566px;    /* the photo width + 6px */
+  left: 4px;
+  }
+
+#fssPrev{     /* button previous */
+  position:absolute;
+  top:129px;   /* vertical aligment */
+  left: -18px;
+  background:url(arrows.png) -67px 0px;
+  width:67px;
+  height:143px;
+  text-indent:-999999px;
+  }
+
+#fssNext{     /* next button */
+  position:absolute;
+  top:129px;   /* vertical aligment */
+  left:615px;  /* align the right edge of the photo */
+  background:url(arrows.png) no-repeat;
+  width:50px;
+  height:143px;
+  text-indent:-999999px;
+  }
+
+#fssPlayPause{         /* Play button*/
+  position:absolute;
+  top:346px;       /* exhibit height position (just above the lower edge of the photo) */
+  right:-41px;      /* slightly shifted from the right edge */
+  background:url(white.png) repeat;
+  padding:4px 0 5px 0;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  width:60px;
+  text-align:center;
+  display:block;
+  color:#333;
+  text-decoration:none;
+  }
+
+ul#slideshow{
+  list-style:none;
+  border:1px solid #999;
+  padding:2px;
+  margin:auto;
+  margin-top:5px;
+  left:49px;   /* Aligns the left edge, giving place to a button */
+  width:560px;        /*   size photo */
+  height:373px;
+  overflow:hidden;
+  }
+
+p{text-align:center;}
+
+#fssList{    /* numbers beneath a photo */
+  list-style:none;
+  width:560px;        /* photo width  */
+  margin:0 auto;
+  padding:5px 0 0 56px;    /* put the figures at the left edge of the photo */
+  }
+
+#fssList li{display:inline;padding-right:10px;}
+#fssList li a{color:#999;text-decoration:none;}
+#fssList li.fssActive a{font-weight:bold;color:#333;}
+
+#top{background:#3b5998;width:100%;height:40px;margin-bottom:20px;}
+#top h1{color:#fff;font-weight:normal;font-size:18px;padding:7px 0 0 5px}
+#top h1 span{font-size:11px;}
+#top h1 a{text-decoration:underline;color:#fff;}
+#top h1 a:hover{text-decoration:none;}
+
+small a{color:#000;}

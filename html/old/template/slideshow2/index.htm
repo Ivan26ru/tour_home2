@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Slideshows and photogallery</title>
+
+<style type="text/css">
+body {margin:10px 0px; padding:0px; background-color: #000000;color: #ffffff;}
+#content {width:620px; margin:0px auto;}  /* ширина блока */
+#desc {margin:10px; float:left; font-family: Arial, sans-serif; font-size: 12px;}
+</style>
+
+<!-- include CSS always before including js -->
+<link type="text/css" rel="stylesheet" href="skins/tn3/tn3.css"></link>
+<!-- include jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- include tn3 plugin -->
+<script type="text/javascript" src="js/jquery.tn3lite.min.js"></script>
+
+<!--  initialize the TN3 when the DOM is ready -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		//Thumbnailer.config.shaderOpacity = 1;
+		var tn1 = $('.mygallery').tn3({
+skinDir:"skins",
+imageClick:"fullscreen",
+image:{
+maxZoom:1.5,
+crop:true,
+clickEvent:"dblclick",
+transitions:[{
+type:"blinds"
+},{
+type:"grid"
+},{
+type:"grid",
+duration:460,
+easing:"easeInQuad",
+gridX:1,
+gridY:8,
+// flat, diagonal, circle, random
+sort:"random",
+sortReverse:false,
+diagonalStart:"bl",
+// fade, scale
+method:"scale",
+partDuration:360,
+partEasing:"easeOutSine",
+partDirection:"left"
+}]
+}
+		});
+	});
+</script>
+</head>
+<body>
+<!-- Put the images of any dimensions in the photo directory, but the best look in the dimension  the  620х378 px -->
+    <div id="content">
+    <div class="mygallery">
+	<div class="tn3 album">
+	    <h4>¬кусно?</h4>
+	    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+	    <div class="tn3 thumb">images/35x35/1.jpg</div>
+	    <ol>
+
+		<li>
+<!-- Note that the first picture is inserted twice. This main block and before the list -->
+            <h4>Is It Tasty?</h4>
+		    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+		    <a href="images/photo/1.jpg">
+			<img src="images/35x35/1.jpg" />
+		    </a>
+		</li>
+
+      <!-- The start of the block with photo  -->
+		<li>
+		    <h4>Divorce guards</h4>
+		    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+		    <a href="images/photo/2.jpg">
+			<img src="images/35x35/2.jpg" />
+		    </a>
+		</li>
+       <!-- The end of the block with photo  -->
+
+		<li>
+		    <!--<h4>You can put this header or not</h4> -->
+		    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+		    <a href="images/photo/3.jpg">
+			<img src="images/35x35/3.jpg" />
+		    </a>
+		</li>
+		<li>
+		    <h4></h4>
+		    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+		    <a href="images/photo/4.jpg">
+			<img src="images/35x35/4.jpg" />
+		    </a>
+		</li>
+		<li>
+		    <h4>The walk around fortress</h4>
+		    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+		    <a href="images/photo/5.jpg">
+			<img src="images/35x35/5.jpg" />
+		    </a>
+		</li>
+		<li>
+		    <h4>Musician</h4>
+		    <div class="tn3 description">Photographers: Natalia Kovarskaya and Alexei Grif</div>
+		    <a href="images/photo/6.jpg">
+			<img src="images/35x35/6.jpg" />
+		    </a>
+		</li>
+
+	   </ol>
+	</div>
+    </div>
+</div>
+</body>
+</html>
+
+
+

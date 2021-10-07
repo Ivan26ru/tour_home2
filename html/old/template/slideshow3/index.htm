@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Slideshow</title>
+
+    <script src="js/jquery-1.4.4.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,  /* The spped of show */
+				pause: 2500,  /* pause */
+				hoverPause: true,
+				animationStart: function(){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log(current);
+					};
+				}
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+ 	<div id="container">
+            <div id="slides">
+				<div class="slides_container">
+
+                    <div class="slide">
+					   <img src="img/1.jpg" width="560" height="373"" style="border: 0" alt="">
+					</div>
+
+                    <div class="slide">
+					   <img src="img/2.jpg" width="560" height="373"" style="border: 0" alt="">
+					</div>
+
+					<div class="slide">
+						<img src="img/3.jpg" width="560" height="373"" style="border: 0" alt="">
+					</div>
+
+
+
+
+				</div>
+				<a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+			</div>
+		   	<img src="img/example-frame.png" width="622" height="425" alt="Example Frame" id="frame"> 
+    </div>
+</div>
+</body>
+</html>

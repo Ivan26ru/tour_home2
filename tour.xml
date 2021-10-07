@@ -128,6 +128,18 @@
 		   onclick="toggle(layer[text].visible);"
 	/>
 
+	<layer name="photo"
+		   keep="true"
+		   type="image"
+		   align="righttop"
+		   url="photo.png"
+		   width="35px"
+		   height="25x"
+		   x="15px"
+		   y="160px"
+		   onclick="close_plan();popup('iframe', 'html/all.html', 800, 600, true);"
+	/>
+
 	<style name="text_style"
 		   keep="false"
 		   visible="false"
@@ -196,6 +208,28 @@
 
 
 <!--	@todo start scene -->
+	<scene name="scene__Group_8_-PG5A1818_PG5A1823-6_images" title="3 Главное фойе" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/preview.jpg" />
+
+		<image if="!(webvr.isenabled OR device.mobilevr)">
+			<cube url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
+		</image>
+
+		<image if="webvr.isenabled OR device.mobilevr">
+			<cube url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/vr/pano_%s.jpg" />
+		</image>
+
+		<layer name="text"
+			   style="text_style"
+			   html="Главное фойе: площадь 81,4 м2, высота 8,2 м. Полы: мрамор Botticino Classico -слэбы с розеткой Imperador Dark, латунными вставками-Италия. Освещение: 3 хрустальных люстры Faustig D100/H130-Германия. Мебель: кресла, столик, стол Colombo Stile-Италия. Акустика Sonance Bang &amp; Olufsen- Дания. Подсветка RGB Space Canon-Италия. "
+		/>
+	</scene>
+
 	<scene name="scene_______" title="2 Гостевой туалет 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/______.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<control bouncinglimits="calc:image.cube ? true : false" />
@@ -216,28 +250,6 @@
 			   style="text_style"
 			   html="Гостевой туалет: площадь 5,1м2, высота 3,2 м. Пол и стены Travertino Classico Romano-Италия. Освещение: AXO Light, Itre, Ideallux- Италия. Сантехника: унитаз, писсуар Villeroy&amp;Boch Magnum, Geberit, смесители Kohler, аксессуары Dombracht MEM."
 		/>
-	</scene>
-
-	<scene name="scene__Group_8_-PG5A1818_PG5A1823-6_images" title="3 Главное фойе" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<control bouncinglimits="calc:image.cube ? true : false" />
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/preview.jpg" />
-
-		<image if="!(webvr.isenabled OR device.mobilevr)">
-			<cube url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,640,1152,2304,4608" />
-		</image>
-
-		<image if="webvr.isenabled OR device.mobilevr">
-			<cube url="panos/_Group_8_-PG5A1818_PG5A1823-6_images.tiles/vr/pano_%s.jpg" />
-		</image>
-
-			<layer name="text"
-		   style="text_style"
-		   html="Главное фойе: площадь 81,4 м2, высота 8,2 м. Полы: мрамор Botticino Classico -слэбы с розеткой Imperador Dark, латунными вставками-Италия. Освещение: 3 хрустальных люстры Faustig D100/H130-Германия. Мебель: кресла, столик, стол Colombo Stile-Италия. Акустика Sonance Bang &amp; Olufsen- Дания. Подсветка RGB Space Canon-Италия. "
-	/>
 	</scene>
 
 	<scene name="scene__Group_13_-PG5A1851_PG5A1856-6_images" title="4 Гардеробная 1" onstart="" havevrimage.mobilevr="false" havevrimage.no-mobilevr="true" thumburl="panos/_Group_13_-PG5A1851_PG5A1856-6_images.tiles/thumb.jpg" lat="" lng="" heading="">

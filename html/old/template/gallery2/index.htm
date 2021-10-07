@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+         <title>Photo gallery</title>
+        <style>
+                    /*  styles */
+            html,body{background:#222;margin:0;}
+            body{border-top:4px solid #000;}
+            .content{color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;
+            width:620px;   /* the gallery width */                                                                                             margin:20px auto;}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+        /* This rule is read by Galleria to define the gallery height: */
+            #galleria{height:420px;}          /* define the gallery height */
+
+        </style>
+        
+        <!-- load jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        
+        <!-- load Galleria -->
+        <script src="galleria-1.2.2.min.js"></script>
+
+    </head>
+<body>
+    <div class="content">
+ <!-- Adding gallery images. We use resized thumbnails here for better performance, but it’s not necessary -->
+        
+        <div id="galleria">
+        <!-- start -->
+            <a href="photo/1.jpg">
+            	<img title="Is It Tasty?"
+            	     alt="photo by Aleksey Grif"
+            	     src="photo/1.jpg">
+        	</a>
+         <!-- end -->
+            <a href="photo/2.jpg">
+                <img title="Training"
+                     alt="photo by Aleksey Grif"
+                     src="photo/2.jpg">
+            </a>
+            <a href="photo/3.jpg">
+                <img
+                     alt="photo by Aleksey Grif"
+                     src="photo/3.jpg">
+            </a>
+          </div>
+    </div>
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.min.js');
+    
+    // Initialize Galleria
+    $('#galleria').galleria();
+    </script>
+    </body>
+</html>
