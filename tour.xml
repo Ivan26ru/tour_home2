@@ -123,7 +123,7 @@
 		   url="info.png"
 		   width="35px"
 		   height="35x"
-		   x="15px"
+		   x="35px"
 		   y="50px"
 		   onclick="toggle(layer[text].visible);"
 	/>
@@ -135,7 +135,7 @@
 		   url="photo.png"
 		   width="35px"
 		   height="25x"
-		   x="15px"
+		   x="35px"
 		   y="160px"
 		   onclick="close_plan();popup('iframe', 'html/all.html', 800, 600, true);"
 	/>
