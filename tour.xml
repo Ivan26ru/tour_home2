@@ -140,6 +140,18 @@
 		   onclick="close_plan();popup('iframe', 'html/all.html', 800, 600, true);"
 	/>
 
+	<layer name="reload"
+		   keep="true"
+		   type="image"
+		   align="righttop"
+		   url="reload.png"
+		   width="35px"
+		   height="35x"
+		   x="35px"
+		   y="205px"
+		   onclick="openurl('index.html',_self);"
+	/>
+
 	<style name="text_style"
 		   keep="false"
 		   visible="false"
