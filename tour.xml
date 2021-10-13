@@ -116,6 +116,18 @@
 		/>
 	</layer>
 
+	<layer name="video_icon"
+		   keep="true"
+		   type="image"
+		   align="righttop"
+		   url="skin/youtube.png"
+		   width="35px"
+		   height="25x"
+		   x="35px"
+		   y="15px"
+		   onclick="close_plan();popup('iframe', 'https://www.youtube.com/embed/qQouKuCUJ1E?rel=0&amp;hd=1&amp;vq=hd1080&amp;showinfo=0&amp;autoplay=1', 900, 506, false);"
+	/>
+
 	<layer name="info"
 		   keep="true"
 		   type="image"
@@ -189,12 +201,15 @@
 		trace('action_mobile-on');
 
 		set(layer[youtube_1].visible,false);
+		set(layer[video_icon].visible,true);
+
 	</action>
 
 	<action name="action_mobile-off" keep="true">
 		trace('action_mobile-off');
 
 		set(layer[youtube_1].visible,true);
+		set(layer[video_icon].visible,false);
 	</action>
 
 	<action name="vr_on">
