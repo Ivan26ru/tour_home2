@@ -1,0 +1,55 @@
+﻿<krpano>
+	<include url="tour_all.xml" keep="true"/>
+	<layer name="youtube_1" keep="true" type="text"
+		   align="leftbottom"
+		   width="200px"
+		   height="120x"
+		   maskchildren="true"
+		   bgalpha="0"
+		   x="30"
+		   y="35"
+	>
+		<layer name="youtube"
+			   keep="true"
+			   parent="youtube_1"
+			   type="image"
+			   url="skin/img_video.jpg?2"
+			   bgcolor="0x000000"
+			   width="100%"
+			   height="100%"
+			   bgroundedge="10"
+			   youtube_h="60"
+			   ondown="drag_LinkSM()"
+
+			   onclick="close_plan();popup('iframe', 'html/video.html', 900, 506, false);"
+		/>
+
+		<!--		close_plan();popup('iframe', 'https://www.youtube.com/embed/0UQfXaPdq6E?rel=0&amp;hd=1&amp;vq=hd1080&amp;showinfo=0&amp;autoplay=1', 900, 506, false);-->
+		<layer name="youtube_btn"
+			   keep="true"
+			   parent="youtube_1"
+			   type="image"
+			   url="skin/youtube.png"
+			   align="center"
+			   bgcolor="0x000000"
+			   width="50px"
+			   height="prop"
+			   enabled="false"
+			   onclick=""
+			   bgroundedge="10"
+		/>
+	</layer>
+
+	<layer name="video_icon"
+		   keep="true"
+		   type="image"
+		   align="righttop"
+		   url="skin/youtube.png"
+		   width="35px"
+		   height="25x"
+		   x="35px"
+		   y="15px"
+		   onclick="close_plan();popup('iframe', 'html/video.html', 900, 506, false);"
+	/>
+
+</krpano>
